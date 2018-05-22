@@ -1,0 +1,325 @@
+# Reading C:/altera/11.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do latch1_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying c:\altera\11.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\11.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {latch1.vho}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity latch1
+# -- Compiling architecture structure of latch1
+# 
+# vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity testbench_latch1
+# -- Compiling architecture sim of testbench_latch1
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=latch1_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc"  testbench_latch1
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=latch1_vhd.sdo -t 1ps testbench_latch1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_latch1(sim)
+# SDF 10.0c Compiler 2011.09 Sep 21 2011
+# 
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.latch1(structure)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading instances from latch1_vhd.sdo
+# Loading timing data from latch1_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_latch1 File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Failure: Just kidding -- 6 tests completed successfully.
+#    Time: 115 ns  Iteration: 1  Process: /testbench_latch1/line__84 File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd
+# Break in Process line__84 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd line 102
+# Simulation Breakpoint: Break in Process line__84 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd line 102
+# MACRO ./latch1_run_msim_gate_vhdl.do PAUSED at line 17
+do latch1_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {latch1.vho}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity latch1
+# -- Compiling architecture structure of latch1
+# 
+# vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity testbench_latch1
+# -- Compiling architecture sim of testbench_latch1
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=latch1_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc"  testbench_latch1
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=latch1_vhd.sdo -t 1ps testbench_latch1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_latch1(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.latch1(structure)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading instances from latch1_vhd.sdo
+# Loading timing data from latch1_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_latch1 File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: Vetor deu erro n. Teste: 1. Esperado qesp ='0'Valor Obtido: q(0) ='X'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 1. Esperado qesp ='0'Valor Obtido: q(1) ='X'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 1. Esperado qesp ='0'Valor Obtido: q(2) ='X'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 1. Esperado qesp ='0'Valor Obtido: q(3) ='X'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 2. Esperado qesp ='1'Valor Obtido: q(0) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 2. Esperado qesp ='1'Valor Obtido: q(1) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 2. Esperado qesp ='1'Valor Obtido: q(2) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 2. Esperado qesp ='1'Valor Obtido: q(3) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 4. Esperado qesp ='0'Valor Obtido: q(0) ='1'
+#    Time: 45 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 4. Esperado qesp ='0'Valor Obtido: q(1) ='1'
+#    Time: 45 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 4. Esperado qesp ='0'Valor Obtido: q(2) ='1'
+#    Time: 45 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 4. Esperado qesp ='0'Valor Obtido: q(3) ='1'
+#    Time: 45 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 5. Esperado qesp ='1'Valor Obtido: q(0) ='0'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 5. Esperado qesp ='1'Valor Obtido: q(1) ='0'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 5. Esperado qesp ='1'Valor Obtido: q(2) ='0'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 5. Esperado qesp ='1'Valor Obtido: q(3) ='0'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Failure: 6tests completed, errors = 16
+#    Time: 55 ns  Iteration: 1  Process: /testbench_latch1/line__84 File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd
+# Break in Process line__84 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd line 107
+# Simulation Breakpoint: Break in Process line__84 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd line 107
+# MACRO ./latch1_run_msim_gate_vhdl.do PAUSED at line 17
+do latch1_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {latch1.vho}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity latch1
+# -- Compiling architecture structure of latch1
+# 
+# vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity testbench_latch1
+# -- Compiling architecture sim of testbench_latch1
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=latch1_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc"  testbench_latch1
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=latch1_vhd.sdo -t 1ps testbench_latch1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_latch1(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.latch1(structure)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading instances from latch1_vhd.sdo
+# Loading timing data from latch1_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_latch1 File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: Vetor deu erro n. Teste: 2. Esperado qesp ='1'Valor Obtido: q(0) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 4. Esperado qesp ='0'Valor Obtido: q(0) ='1'
+#    Time: 70 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Error: Vetor deu erro n. Teste: 5. Esperado qesp ='1'Valor Obtido: q(0) ='0'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_latch1
+# ** Failure: 6tests completed, errors = 12
+#    Time: 85 ns  Iteration: 1  Process: /testbench_latch1/line__84 File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd
+# Break in Process line__84 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd line 107
+# Simulation Breakpoint: Break in Process line__84 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd line 107
+# MACRO ./latch1_run_msim_gate_vhdl.do PAUSED at line 17
+do latch1_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {latch1.vho}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity latch1
+# -- Compiling architecture structure of latch1
+# 
+# vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity testbench_latch1
+# -- Compiling architecture sim of testbench_latch1
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=latch1_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc"  testbench_latch1
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=latch1_vhd.sdo -t 1ps testbench_latch1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_latch1(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.latch1(structure)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading instances from latch1_vhd.sdo
+# Loading timing data from latch1_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_latch1 File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Failure: Just kidding -- 6 tests completed successfully.
+#    Time: 115 ns  Iteration: 1  Process: /testbench_latch1/line__84 File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd
+# Break in Process line__84 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd line 102
+# Simulation Breakpoint: Break in Process line__84 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.21/testbench_latch1/testbench_latch1.vhd line 102
+# MACRO ./latch1_run_msim_gate_vhdl.do PAUSED at line 17
+add list  \
+sim:/testbench_latch1/clk \
+sim:/testbench_latch1/ck \
+sim:/testbench_latch1/d \
+sim:/testbench_latch1/q \
+sim:/testbench_latch1/qexpected

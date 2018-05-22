@@ -1,0 +1,276 @@
+# Reading C:/altera/11.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do flopnr_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying c:\altera\11.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\11.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {flopnr.vho}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity flopnr
+# -- Compiling architecture structure of flopnr
+# 
+# vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity testbench_flopnr
+# -- Compiling architecture sim of testbench_flopnr
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=flopnr_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc"  testbench_flopnr
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=flopnr_vhd.sdo -t 1ps testbench_flopnr 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_flopnr(sim)
+# SDF 10.0c Compiler 2011.09 Sep 21 2011
+# 
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.flopnr(structure)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading instances from flopnr_vhd.sdo
+# Loading timing data from flopnr_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_flopnr File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: Vetor deu erro n. Teste: 9. Esperado qesp ='1'Valor Obtido: q(0) ='0'
+#    Time: 95 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 12. Esperado qesp ='0'Valor Obtido: q(0) ='1'
+#    Time: 125 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 15. Esperado qesp ='1'Valor Obtido: q(0) ='0'
+#    Time: 155 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 17. Esperado qesp ='0'Valor Obtido: q(0) ='1'
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 17. Esperado qesp ='1'Valor Obtido: q(1) ='0'
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 19. Esperado qesp ='1'Valor Obtido: q(0) ='0'
+#    Time: 195 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 21. Esperado qesp ='0'Valor Obtido: q(0) ='1'
+#    Time: 215 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 21. Esperado qesp ='0'Valor Obtido: q(1) ='1'
+#    Time: 215 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 21. Esperado qesp ='1'Valor Obtido: q(2) ='0'
+#    Time: 215 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 23. Esperado qesp ='1'Valor Obtido: q(0) ='0'
+#    Time: 235 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 25. Esperado qesp ='0'Valor Obtido: q(0) ='1'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 25. Esperado qesp ='1'Valor Obtido: q(1) ='0'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 27. Esperado qesp ='1'Valor Obtido: q(0) ='0'
+#    Time: 275 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 29. Esperado qesp ='0'Valor Obtido: q(0) ='1'
+#    Time: 295 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 29. Esperado qesp ='0'Valor Obtido: q(1) ='1'
+#    Time: 295 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 29. Esperado qesp ='0'Valor Obtido: q(2) ='1'
+#    Time: 295 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 29. Esperado qesp ='1'Valor Obtido: q(3) ='0'
+#    Time: 295 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 31. Esperado qesp ='1'Valor Obtido: q(0) ='0'
+#    Time: 315 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 33. Esperado qesp ='0'Valor Obtido: q(0) ='1'
+#    Time: 335 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 33. Esperado qesp ='1'Valor Obtido: q(1) ='0'
+#    Time: 335 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 35. Esperado qesp ='1'Valor Obtido: q(0) ='0'
+#    Time: 355 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 37. Esperado qesp ='0'Valor Obtido: q(0) ='1'
+#    Time: 375 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 37. Esperado qesp ='0'Valor Obtido: q(1) ='1'
+#    Time: 375 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 37. Esperado qesp ='1'Valor Obtido: q(2) ='0'
+#    Time: 375 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 39. Esperado qesp ='1'Valor Obtido: q(0) ='0'
+#    Time: 395 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 41. Esperado qesp ='0'Valor Obtido: q(0) ='1'
+#    Time: 415 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 41. Esperado qesp ='1'Valor Obtido: q(1) ='0'
+#    Time: 415 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Error: Vetor deu erro n. Teste: 43. Esperado qesp ='1'Valor Obtido: q(0) ='0'
+#    Time: 435 ns  Iteration: 1  Instance: /testbench_flopnr
+# ** Failure: 44tests completed, errors = 68
+#    Time: 435 ns  Iteration: 1  Process: /testbench_flopnr/line__88 File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd
+# Break in Process line__88 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd line 111
+# Simulation Breakpoint: Break in Process line__88 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd line 111
+# MACRO ./flopnr_run_msim_gate_vhdl.do PAUSED at line 17
+do flopnr_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {flopnr.vho}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity flopnr
+# -- Compiling architecture structure of flopnr
+# 
+# vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity testbench_flopnr
+# -- Compiling architecture sim of testbench_flopnr
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=flopnr_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc"  testbench_flopnr
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=flopnr_vhd.sdo -t 1ps testbench_flopnr 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_flopnr(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.flopnr(structure)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading instances from flopnr_vhd.sdo
+# Loading timing data from flopnr_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_flopnr File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Failure: Just kidding -- 44 tests completed successfully.
+#    Time: 655 ns  Iteration: 1  Process: /testbench_flopnr/line__88 File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd
+# Break in Process line__88 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd line 106
+# Simulation Breakpoint: Break in Process line__88 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd line 106
+# MACRO ./flopnr_run_msim_gate_vhdl.do PAUSED at line 17
+do flopnr_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {flopnr.vho}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity flopnr
+# -- Compiling architecture structure of flopnr
+# 
+# vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity testbench_flopnr
+# -- Compiling architecture sim of testbench_flopnr
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=flopnr_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc"  testbench_flopnr
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=flopnr_vhd.sdo -t 1ps testbench_flopnr 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_flopnr(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.flopnr(structure)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading instances from flopnr_vhd.sdo
+# Loading timing data from flopnr_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_flopnr File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Failure: Just kidding -- 44 tests completed successfully.
+#    Time: 655 ns  Iteration: 1  Process: /testbench_flopnr/line__88 File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd
+# Break in Process line__88 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd line 106
+# Simulation Breakpoint: Break in Process line__88 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd line 106
+# MACRO ./flopnr_run_msim_gate_vhdl.do PAUSED at line 17
+add list  \
+sim:/testbench_flopnr/clk \
+sim:/testbench_flopnr/ck \
+sim:/testbench_flopnr/reset \
+sim:/testbench_flopnr/en \
+sim:/testbench_flopnr/d \
+sim:/testbench_flopnr/q \
+sim:/testbench_flopnr/qexpected

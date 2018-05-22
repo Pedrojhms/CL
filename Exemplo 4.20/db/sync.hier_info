@@ -1,0 +1,6 @@
+|sync
+clk => q~reg0.CLK
+clk => n1.CLK
+d => n1.DATAIN
+
+

@@ -1,0 +1,669 @@
+# Reading C:/altera/11.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do adder_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying c:\altera\11.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\11.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {adder.vho}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity adder
+# -- Compiling architecture structure of adder
+# 
+# vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity testbench_adder
+# -- Compiling architecture sim of testbench_adder
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=adder_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc"  testbench_adder
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=adder_vhd.sdo -t 1ps testbench_adder 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_adder(sim)
+# SDF 10.0c Compiler 2011.09 Sep 21 2011
+# 
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.adder(structure)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading instances from adder_vhd.sdo
+# Loading timing data from adder_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_adder File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(0) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(1) ='U'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(2) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(3) ='U'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(4) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(5) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(6) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(7) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(8) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(9) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(10) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(11) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(12) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(13) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(14) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(15) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado cout_expected ='0'Valor Obtido: cout ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(0) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(1) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(3) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(4) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(11) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(13) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(15) ='1'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado cout_expected ='1'Valor Obtido: cout ='0'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(0) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(1) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(3) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(4) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(15) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado cout_expected ='0'Valor Obtido: cout ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(0) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(1) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(3) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(4) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(11) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(13) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(15) ='1'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado cout_expected ='1'Valor Obtido: cout ='0'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 5. Esperado s_expected ='1'Valor Obtido: s(0) ='0'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(1) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(3) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(4) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(15) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_adder
+# ** Failure: 7tests completed, errors = 100
+#    Time: 65 ns  Iteration: 1  Process: /testbench_adder/line__78 File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd
+# Break in Process line__78 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd line 108
+# Simulation Breakpoint: Break in Process line__78 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd line 108
+# MACRO ./adder_run_msim_gate_vhdl.do PAUSED at line 17
+do adder_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {adder.vho}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity adder
+# -- Compiling architecture structure of adder
+# 
+# vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity testbench_adder
+# -- Compiling architecture sim of testbench_adder
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=adder_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc"  testbench_adder
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=adder_vhd.sdo -t 1ps testbench_adder 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_adder(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.adder(structure)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading instances from adder_vhd.sdo
+# Loading timing data from adder_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_adder File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(0) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(1) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(2) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(3) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(4) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(5) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(6) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(7) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(8) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(9) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(10) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(11) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(12) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(13) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(14) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='1'Valor Obtido: s(15) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 0. Esperado cout_expected ='0'Valor Obtido: cout ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(0) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(1) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(3) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(4) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(11) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(13) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(15) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 1. Esperado cout_expected ='1'Valor Obtido: cout ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(0) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(1) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(3) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(4) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(15) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 2. Esperado cout_expected ='0'Valor Obtido: cout ='1'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(0) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(1) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(3) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(4) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(11) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(13) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(15) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 3. Esperado cout_expected ='1'Valor Obtido: cout ='0'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 5. Esperado s_expected ='1'Valor Obtido: s(0) ='0'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(1) ='0'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(3) ='0'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(4) ='0'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_adder
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(15) ='0'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_adder
+# ** Failure: 7tests completed, errors = 100
+#    Time: 100 ns  Iteration: 1  Process: /testbench_adder/line__78 File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd
+# Break in Process line__78 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd line 108
+# Simulation Breakpoint: Break in Process line__78 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd line 108
+# MACRO ./adder_run_msim_gate_vhdl.do PAUSED at line 17
+do adder_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {adder.vho}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity adder
+# -- Compiling architecture structure of adder
+# 
+# vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity testbench_adder
+# -- Compiling architecture sim of testbench_adder
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=adder_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc"  testbench_adder
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=adder_vhd.sdo -t 1ps testbench_adder 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_adder(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.adder(structure)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading instances from adder_vhd.sdo
+# Loading timing data from adder_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_adder File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Failure: Just kidding -- 7tests completed successfully.
+#    Time: 135 ns  Iteration: 1  Process: /testbench_adder/line__78 File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd
+# Break in Process line__78 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd line 103
+# Simulation Breakpoint: Break in Process line__78 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd line 103
+# MACRO ./adder_run_msim_gate_vhdl.do PAUSED at line 17
+do adder_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {adder.vho}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity adder
+# -- Compiling architecture structure of adder
+# 
+# vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity testbench_adder
+# -- Compiling architecture sim of testbench_adder
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=adder_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc"  testbench_adder
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=adder_vhd.sdo -t 1ps testbench_adder 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_adder(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.adder(structure)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading instances from adder_vhd.sdo
+# Loading timing data from adder_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_adder File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Failure: Just kidding -- 7tests completed successfully.
+#    Time: 135 ns  Iteration: 1  Process: /testbench_adder/line__78 File: E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd
+# Break in Process line__78 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd line 103
+# Simulation Breakpoint: Break in Process line__78 at E:/CircuitoLógicoAula/Projetos_CL/Exemplo 5.1/testbench/testbench_adder.vhd line 103
+# MACRO ./adder_run_msim_gate_vhdl.do PAUSED at line 17
+add list  \
+sim:/testbench_adder/a \
+sim:/testbench_adder/b \
+sim:/testbench_adder/cin \
+sim:/testbench_adder/s \
+sim:/testbench_adder/cout \
+sim:/testbench_adder/cout_expected \
+sim:/testbench_adder/s_expected

@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dK:\CircuitoLógicoAula\Projetos_CL\Exemplo 4.10\simulation\modelsim
+Etestbench_tristate
+Z1 w1523930034
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dK:\CircuitoLógicoAula\Projetos_CL\Exemplo 4.10\simulation\modelsim
+Z7 8K:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.10/testbench_tristate/testbench_tristate.vhd
+Z8 FK:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.10/testbench_tristate/testbench_tristate.vhd
+l0
+L7
+V1^TR:V9bLPM^?:Y0[KlO]1
+!s100 gcEiEKY`giZCTUg2cXAU_2
+Z9 OV;C;10.0c;49
+31
+Z10 !s108 1524067292.266000
+Z11 !s90 -reportprogress|300|-93|-work|work|K:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.10/testbench_tristate/testbench_tristate.vhd|
+Z12 !s107 K:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.10/testbench_tristate/testbench_tristate.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+Asim
+R2
+R3
+R4
+R5
+DEx4 work 18 testbench_tristate 0 22 1^TR:V9bLPM^?:Y0[KlO]1
+l25
+L9
+VzhK1d[2HNWg9CfoN^3GUa3
+!s100 >]6df0<Md4]I846cA=`^g3
+R9
+31
+R10
+R11
+R12
+R13
+R14
+Etristate
+Z15 w1523640392
+R4
+R5
+R6
+Z16 8K:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.10/tristate.vhd
+Z17 FK:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.10/tristate.vhd
+l0
+L3
+Vabl4>31=5S@eHE>T63c?k1
+R9
+31
+Z18 !s108 1524067291.553000
+Z19 !s90 -reportprogress|300|-93|-work|work|K:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.10/tristate.vhd|
+Z20 !s107 K:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.10/tristate.vhd|
+R13
+R14
+!s100 =FFC6QDL^dJV4UPo>UojM3
+Asynth
+R4
+R5
+DEx4 work 8 tristate 0 22 abl4>31=5S@eHE>T63c?k1
+l11
+L9
+VOSk]45i^Pdmi@KWJU1`b@3
+R9
+31
+R18
+R19
+R20
+R13
+R14
+!s100 S<Dhg>eFd8_@I:MMV;HNz0

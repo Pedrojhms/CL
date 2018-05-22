@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\CircuitoLógicoAula\Projetos_CL\Exemplo 4.19\simulation\modelsim
+Eflopnr
+Z1 w1524586396
+Z2 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dE:\CircuitoLógicoAula\Projetos_CL\Exemplo 4.19\simulation\modelsim
+Z5 8E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/flopnr.vhd
+Z6 FE:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/flopnr.vhd
+l0
+L3
+V<RIBF=kOSZ62AO<GXTnnL1
+Z7 OV;C;10.0c;49
+31
+Z8 !s108 1525383725.628000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/flopnr.vhd|
+Z10 !s107 E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/flopnr.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 gR7TiC7eK?32Hk[TcnM6=2
+Aasynchronous
+R2
+R3
+DEx4 work 6 flopnr 0 22 <RIBF=kOSZ62AO<GXTnnL1
+l14
+L11
+VdfzS^8]KI0Bo]5gcbNQh]2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 hJ3@AN:O7aoe?zm=QQE<40
+Etestbench_flopnr
+Z13 w1525276470
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z15 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R2
+R3
+R4
+Z16 8E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd
+Z17 FE:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd
+l0
+L7
+V^;G3j;d>lJfJ<LTSB11@o0
+!s100 M77YjRS44Gg9Qe5XI2mNI0
+R7
+31
+Z18 !s108 1525383725.998000
+Z19 !s90 -reportprogress|300|-93|-work|work|E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd|
+Z20 !s107 E:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.19/testbench_flonpr/testbench_flonpr.vhd|
+R11
+R12
+Asim
+R14
+R15
+R2
+R3
+DEx4 work 16 testbench_flopnr 0 22 ^;G3j;d>lJfJ<LTSB11@o0
+l31
+L9
+VR`0S9ca9=6fCS5niJN9YR0
+!s100 `]MD@J;gf8QN=LI?c`Mah0
+R7
+31
+R18
+R19
+R20
+R11
+R12

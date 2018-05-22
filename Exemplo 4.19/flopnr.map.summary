@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu May 03 18:34:21 2018
+Quartus II 32-bit Version : 11.1 Build 173 11/01/2011 SJ Web Edition
+Revision Name : flopnr
+Top-level Entity Name : flopnr
+Family : Cyclone II
+Total logic elements : 4
+    Total combinational functions : 0
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 11
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

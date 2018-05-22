@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon May 14 19:55:59 2018
+Quartus II 32-bit Version : 11.1 Build 173 11/01/2011 SJ Web Edition
+Revision Name : mux4_estruturado
+Top-level Entity Name : mux4_estruturado
+Family : Cyclone II
+Total logic elements : 8
+    Total combinational functions : 8
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 22
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

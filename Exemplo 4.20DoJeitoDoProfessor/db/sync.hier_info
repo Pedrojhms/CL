@@ -1,0 +1,7 @@
+|sync
+clk => q~reg0.CLK
+clk => n1~reg0.CLK
+d => n1~reg0.DATAIN
+n1 <> n1~reg0
+
+

@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, D:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.7/simulation/modelsim/fulladder.tv
+source_file = 1, D:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.7/fulladder.vhd
+source_file = 1, D:/CircuitoLógicoAula/Projetos_CL/Exemplo 4.7/db/fulladder.cbx.xml
+source_file = 1, c:/altera/91sp2/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/91sp2/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/91sp2/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/91sp2/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = fulladder
+instance = comp, \cin[1]~I\, cin[1], fulladder, 1
+instance = comp, \a[1]~I\, a[1], fulladder, 1
+instance = comp, \b[1]~I\, b[1], fulladder, 1
+instance = comp, \s~0\, s~0, fulladder, 1
+instance = comp, \cout~0\, cout~0, fulladder, 1
+instance = comp, \s[1]~I\, s[1], fulladder, 1
+instance = comp, \cout[1]~I\, cout[1], fulladder, 1

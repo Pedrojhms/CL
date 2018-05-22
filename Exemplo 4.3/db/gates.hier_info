@@ -1,0 +1,43 @@
+|gates
+a[0] => y1.IN0
+a[0] => y2.IN0
+a[0] => y3.IN0
+a[0] => y4.IN0
+a[0] => y5.IN0
+a[1] => y1.IN0
+a[1] => y2.IN0
+a[1] => y3.IN0
+a[1] => y4.IN0
+a[1] => y5.IN0
+a[2] => y1.IN0
+a[2] => y2.IN0
+a[2] => y3.IN0
+a[2] => y4.IN0
+a[2] => y5.IN0
+a[3] => y1.IN0
+a[3] => y2.IN0
+a[3] => y3.IN0
+a[3] => y4.IN0
+a[3] => y5.IN0
+b[0] => y1.IN1
+b[0] => y2.IN1
+b[0] => y3.IN1
+b[0] => y4.IN1
+b[0] => y5.IN1
+b[1] => y1.IN1
+b[1] => y2.IN1
+b[1] => y3.IN1
+b[1] => y4.IN1
+b[1] => y5.IN1
+b[2] => y1.IN1
+b[2] => y2.IN1
+b[2] => y3.IN1
+b[2] => y4.IN1
+b[2] => y5.IN1
+b[3] => y1.IN1
+b[3] => y2.IN1
+b[3] => y3.IN1
+b[3] => y4.IN1
+b[3] => y5.IN1
+
+
