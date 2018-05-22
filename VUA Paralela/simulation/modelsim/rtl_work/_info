@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\CircuitoLógicoAula\Projetos_CL\VUA Paralela\simulation\modelsim
+Etestbench_vuaparalela
+Z1 w1527027700
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dE:\CircuitoLógicoAula\Projetos_CL\VUA Paralela\simulation\modelsim
+Z7 8E:/CircuitoLógicoAula/Projetos_CL/VUA Paralela/testbench/testbench_vuaparalela.vhd
+Z8 FE:/CircuitoLógicoAula/Projetos_CL/VUA Paralela/testbench/testbench_vuaparalela.vhd
+l0
+L7
+V;8I<8boge4Y1FkgUmJj812
+!s100 ]h7eAL?>J=`D]kYmIN@zm1
+Z9 OV;C;10.0c;49
+31
+Z10 !s108 1527027797.701000
+Z11 !s90 -reportprogress|300|-93|-work|work|E:/CircuitoLógicoAula/Projetos_CL/VUA Paralela/testbench/testbench_vuaparalela.vhd|
+Z12 !s107 E:/CircuitoLógicoAula/Projetos_CL/VUA Paralela/testbench/testbench_vuaparalela.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+Asim
+R2
+R3
+R4
+R5
+DEx4 work 21 testbench_vuaparalela 0 22 ;8I<8boge4Y1FkgUmJj812
+l31
+L10
+Vkdf^f;C9R;o3k7>b?k=E30
+!s100 ?iO;_G5RZ382=A@V^QTz11
+R9
+31
+R10
+R11
+R12
+R13
+R14
+Evuaparalela
+Z15 w1526661512
+R4
+R5
+R6
+Z16 8E:/CircuitoLógicoAula/Projetos_CL/VUA Paralela/vuaparalela.vhd
+Z17 FE:/CircuitoLógicoAula/Projetos_CL/VUA Paralela/vuaparalela.vhd
+l0
+L3
+V_f6Ucki2nOTI:E5hGJF^M1
+R9
+31
+Z18 !s108 1527027797.337000
+Z19 !s90 -reportprogress|300|-93|-work|work|E:/CircuitoLógicoAula/Projetos_CL/VUA Paralela/vuaparalela.vhd|
+Z20 !s107 E:/CircuitoLógicoAula/Projetos_CL/VUA Paralela/vuaparalela.vhd|
+R13
+R14
+!s100 nNU]DaS6o;Q3Y?6Dozb]D2
+Asynth
+R4
+R5
+DEx4 work 11 vuaparalela 0 22 _f6Ucki2nOTI:E5hGJF^M1
+l11
+L10
+VJ2Uh:RU]R2<CDL`@]YLQP0
+R9
+31
+R18
+R19
+R20
+R13
+R14
+!s100 `^4mESJ3HigIBDZLg5WA_3
