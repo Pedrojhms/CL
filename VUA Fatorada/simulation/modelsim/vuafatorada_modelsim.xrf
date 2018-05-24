@@ -1,6 +1,6 @@
 vendor_name = ModelSim
-source_file = 1, E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/vuafatorada.vhd
-source_file = 1, E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/db/vuafatorada.cbx.xml
+source_file = 1, C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/vuafatorada.vhd
+source_file = 1, C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/db/vuafatorada.cbx.xml
 source_file = 1, c:/altera/11.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/altera/11.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/altera/11.1/quartus/libraries/vhdl/ieee/timing_b.vhd

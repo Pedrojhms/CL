@@ -23,7 +23,7 @@ signal c: STD_LOGIC_VECTOR(3 downto 0);
 signal pg_expected, gg_expected: STD_LOGIC;
 signal c_expected: STD_LOGIC_VECTOR(3 downto 0);
 
-constant MEMSIZE: integer := 8;
+constant MEMSIZE: integer := 512;
 type tvarray is array (MEMSIZE downto 0) of
 STD_LOGIC_VECTOR (14 downto 0);
 signal testvectors: tvarray;
@@ -67,11 +67,11 @@ end process;
 -- apply test vectors on rising edge of clk
 process (clk) begin
 	if (clk'event and clk='1') then   
-		c0 <= testvectors (vectornum) (14); --after 1 ns;
-		p <= testvectors (vectornum) (13 downto 10); --after 1 ns;
-		g <= testvectors (vectornum) (9 downto 6); --after 1 ns;
-		pg_expected <= testvectors (vectornum)(5); --after 1 ns;
-		gg_expected <= testvectors (vectornum)(4); --after 1 ns;
+		p <= testvectors (vectornum) (14 downto 11); --after 1 ns;
+		g <= testvectors (vectornum) (10 downto 7); --after 1 ns;
+		c0 <= testvectors (vectornum) (6); --after 1 ns;
+		gg_expected <= testvectors (vectornum)(5); --after 1 ns;
+		pg_expected <= testvectors (vectornum)(4); --after 1 ns;
 		c_expected <= testvectors (vectornum)(3 downto 0); --after 1 ns;
 	end if;
 end process;

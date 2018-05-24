@@ -5,9 +5,9 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Paralela/vuaparalela.vhd}
+vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/VUA Paralela/vuaparalela.vhd}
 
-vcom -93 -work work {C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Paralela/testbench/testbench_vuaparalela.vhd}
+vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/VUA Paralela/testbench/testbench_vuaparalela.vhd}
 
 vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  testbench_vuaparalela
 
