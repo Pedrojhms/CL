@@ -1,0 +1,1 @@
+No arquivo 'index.py', pode acontecer de dar permissão negada na hora de criação do arquivo, para solucionar existem dois passos, primeiro você pode retirar da área de trabalho, ou simplesmente reexecutando o arquivo.
