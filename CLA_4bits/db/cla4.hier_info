@@ -1,0 +1,82 @@
+|cla4
+a[0] => fulladder:somador0.a
+a[1] => fulladder:somador1.a
+a[2] => fulladder:somador2.a
+a[3] => fulladder:somador3.a
+b[0] => fulladder:somador0.b
+b[1] => fulladder:somador1.b
+b[2] => fulladder:somador2.b
+b[3] => fulladder:somador3.b
+cin => vuaparalela:carry.cin
+
+
+|cla4|vuaparalela:carry
+p[0] => c.IN0
+p[0] => c.IN0
+p[1] => gg.IN1
+p[1] => c.IN1
+p[1] => c.IN0
+p[1] => c.IN1
+p[2] => pg.IN1
+p[2] => gg.IN1
+p[2] => gg.IN1
+p[2] => c.IN0
+p[2] => c.IN1
+p[2] => c.IN1
+p[3] => pg.IN1
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => cout.IN0
+p[3] => cout.IN1
+p[3] => cout.IN1
+p[3] => cout.IN1
+g[0] => gg.IN1
+g[0] => c.IN1
+g[0] => c.IN1
+g[1] => gg.IN1
+g[1] => c.IN1
+g[1] => c.IN1
+g[2] => c.IN1
+g[2] => cout.IN1
+g[3] => cout.IN1
+cin => c.IN1
+cin => c.IN1
+cin => c[1].DATAIN
+
+
+|cla4|fulladder:somador0
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+cin => cout.IN1
+
+
+|cla4|fulladder:somador1
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+cin => cout.IN1
+
+
+|cla4|fulladder:somador2
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+cin => cout.IN1
+
+
+|cla4|fulladder:somador3
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+cin => cout.IN1
+
+

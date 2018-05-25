@@ -1,0 +1,141 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\jpedr\OneDrive\Documentos\GitHub\CL\CL\CLA_4bits\simulation\modelsim
+Ecla4
+Z1 w1527210155
+Z2 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\jpedr\OneDrive\Documentos\GitHub\CL\CL\CLA_4bits\simulation\modelsim
+Z5 8C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/cla4.vhd
+Z6 FC:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/cla4.vhd
+l0
+L3
+V4D2?0JN^4bUL^UZ@OS`SK2
+Z7 OV;C;10.0c;49
+31
+Z8 !s108 1527251770.920000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/cla4.vhd|
+Z10 !s107 C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/cla4.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 ^>hN<EXnnL1PaThG]JzhV1
+Astruct
+R2
+R3
+DEx4 work 4 cla4 0 22 4D2?0JN^4bUL^UZ@OS`SK2
+l29
+L11
+V3bb;7hd4O]?eH3Yma>SK71
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 dQN:?QWX6J@=fJ<H=eLA@3
+Efulladder
+Z13 w1527206847
+R2
+R3
+R4
+Z14 8C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/fulladder.vhd
+Z15 FC:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/fulladder.vhd
+l0
+L3
+V=R09bKoIWYmc:255jT;zJ3
+R7
+31
+Z16 !s108 1527251769.992000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/fulladder.vhd|
+Z18 !s107 C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/fulladder.vhd|
+R11
+R12
+!s100 M2R1kALTVEa665T1a=LWA3
+Asynth
+R2
+R3
+DEx4 work 9 fulladder 0 22 =R09bKoIWYmc:255jT;zJ3
+l11
+L9
+VXCQQnGhRMXOmN`X0e@Teh0
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 @52B;8>hRZe2ngYaVPK:F2
+Etestbench_cla4
+Z19 w1527219244
+Z20 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z21 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R2
+R3
+R4
+Z22 8C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/testbench/testbench_cla4.vhd
+Z23 FC:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/testbench/testbench_cla4.vhd
+l0
+L7
+VdEPT53Dbg6?QH^LAN7_JO3
+!s100 NmVfbzSCGd<UzBT[YSYTn1
+R7
+31
+Z24 !s108 1527251771.171000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/testbench/testbench_cla4.vhd|
+Z26 !s107 C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/testbench/testbench_cla4.vhd|
+R11
+R12
+Asim
+R20
+R21
+R2
+R3
+DEx4 work 14 testbench_cla4 0 22 dEPT53Dbg6?QH^LAN7_JO3
+l31
+L10
+VScJSm;E8aYmeJR>2]m^OG3
+!s100 FlU5lUed>UJmCEQ`QCASb0
+R7
+31
+R24
+R25
+R26
+R11
+R12
+Evuaparalela
+Z27 w1527207560
+R2
+R3
+R4
+Z28 8C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/vuaparalela.vhd
+Z29 FC:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/vuaparalela.vhd
+l0
+L3
+V]egBQUnLzGbB@Oz5OWaWQ0
+R7
+31
+Z30 !s108 1527251770.648000
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/vuaparalela.vhd|
+Z32 !s107 C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/CLA_4bits/vuaparalela.vhd|
+R11
+R12
+!s100 @m]I`TQE]^3:`^Z<hi0Tf0
+Asynth
+R2
+R3
+DEx4 work 11 vuaparalela 0 22 ]egBQUnLzGbB@Oz5OWaWQ0
+l12
+L10
+VPE@gPXP9OXk5A[3ZP?mf92
+R7
+31
+R30
+R31
+R32
+R11
+R12
+!s100 E4kDEmN9TUHQ;kf^lgILG0
