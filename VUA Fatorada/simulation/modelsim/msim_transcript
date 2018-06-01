@@ -22,7 +22,7 @@
 # -- Compiling entity vuafatorada
 # -- Compiling architecture structure of vuafatorada
 # 
-# vcom -93 -work work {C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd}
+# vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -55,7 +55,7 @@
 # Loading instances from vuafatorada_vhd.sdo
 # Loading timing data from vuafatorada_vhd.sdo
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_vuafatorada File: C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_vuafatorada File: E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd
 # 
 # add wave *
 # view structure
@@ -63,411 +63,1608 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Failure: Just kidding -- 512tests completed successfully.
-#    Time: 10235 ns  Iteration: 1  Process: /testbench_vuafatorada/line__79 File: C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd
-# Break in Process line__79 at C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd line 111
-# Simulation Breakpoint: Break in Process line__79 at C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd line 111
-# MACRO ./vuafatorada_run_msim_gate_vhdl.do PAUSED at line 17
-do vuafatorada_run_msim_gate_vhdl.do
-# transcript on
-# if {[file exists gate_work]} {
-# 	vdel -lib gate_work -all
-# }
-# vlib gate_work
-# vmap work gate_work
-# Modifying modelsim.ini
-# 
-# vcom -93 -work work {vuafatorada.vho}
-# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package VITAL_Timing
-# -- Loading package VITAL_Primitives
-# -- Loading package cycloneii_atom_pack
-# -- Loading package cycloneii_components
-# -- Compiling entity vuafatorada
-# -- Compiling architecture structure of vuafatorada
-# 
-# vcom -93 -work work {C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd}
-# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity testbench_vuafatorada
-# -- Compiling architecture sim of testbench_vuafatorada
-# 
-# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=vuafatorada_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc"  testbench_vuafatorada
-# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=vuafatorada_vhd.sdo -t 1ps testbench_vuafatorada 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.testbench_vuafatorada(sim)
-# Loading ieee.vital_timing(body)
-# Loading ieee.vital_primitives(body)
-# Loading cycloneii.cycloneii_atom_pack(body)
-# Loading cycloneii.cycloneii_components
-# Loading work.vuafatorada(structure)
-# Loading cycloneii.cycloneii_io(structure)
-# Loading cycloneii.cycloneii_mux21(altvital)
-# Loading cycloneii.cycloneii_dffe(behave)
-# Loading cycloneii.cycloneii_asynch_io(behave)
-# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
-# Loading instances from vuafatorada_vhd.sdo
-# Loading timing data from vuafatorada_vhd.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_vuafatorada File: C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd
-# 
-# add wave *
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run -all
+# ** Error: Vetor deu erro n. Teste: 0. Esperado c_expected ='0'Valor Obtido: c(1) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 0. Esperado c_expected ='0'Valor Obtido: c(2) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 0. Esperado c_expected ='0'Valor Obtido: c(3) ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 0. Esperado gg_expected ='0'Valor Obtido: gg ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 0. Esperado pg_expected ='0'Valor Obtido: pg ='X'
+#    Time: 5 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 1. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 15 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 2. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 2. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 3. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 35 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 4. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 45 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 4. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 45 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 4. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 45 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 5. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 6. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 6. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 65 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 7. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 75 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 8. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 8. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 8. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 8. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 9. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 95 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 10. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 105 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 10. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 105 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 11. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 115 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 12. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 125 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 12. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 125 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 12. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 125 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 13. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 135 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 14. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 145 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 14. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 145 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 15. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 155 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 16. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 165 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 16. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 165 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 16. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 165 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 16. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 165 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 17. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 18. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 280 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 185 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 18. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 185 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 19. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 295 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 195 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 20. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 205 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 20. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 205 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 20. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 205 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 21. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 215 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 22. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 340 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 225 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 22. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 225 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 23. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 355 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 235 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 24. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 245 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 24. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 245 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 24. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 245 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 24. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 245 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 25. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 255 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 26. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 400 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 265 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 26. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 265 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 27. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 415 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 275 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 28. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 285 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 28. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 285 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 28. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 285 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 29. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 295 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 30. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 460 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 30. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 460 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 30. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 460 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 305 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 30. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 305 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 31. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 475 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 31. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 475 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 31. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 475 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 315 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 32. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 490 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 44. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 670 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 44. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 670 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 46. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 700 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 46. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 700 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 32. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 32. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 32. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 33. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 335 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 33. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 335 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 34. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 345 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 35. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 355 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 36. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 365 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 36. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 365 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 36. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 365 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 37. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 375 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 37. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 375 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 38. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 385 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 39. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 395 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 40. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 405 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 40. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 405 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 40. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 405 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 40. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 405 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 41. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 415 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 41. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 415 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 42. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 425 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 43. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 435 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 44. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 445 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 44. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 445 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 44. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 445 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 45. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 455 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 45. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 455 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 46. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 465 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 47. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 475 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 48. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 485 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 48. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 485 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 48. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 485 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 48. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 485 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 49. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 745 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 495 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 49. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 495 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 50. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 505 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 51. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 515 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 52. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 790 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 525 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 52. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 525 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 52. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 525 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 53. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 805 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 535 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 53. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 535 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 54. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 545 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 55. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 555 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 56. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 850 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 56. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 56. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 56. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 565 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 57. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 865 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 575 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 57. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 575 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 58. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 585 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 59. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 595 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 60. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 910 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 60. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 910 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 60. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 910 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 605 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 60. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 605 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 60. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 605 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 61. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 925 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 61. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 925 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 61. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 925 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 615 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 61. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 615 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 62. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 625 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 63. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 635 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 64. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 64. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 64. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 64. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 65. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 655 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 66. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 665 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 66. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 665 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 66. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 665 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 67. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 675 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 68. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 685 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 68. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 685 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 69. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 695 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 70. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 705 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 70. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 705 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 71. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 715 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 72. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 725 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 72. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 725 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 72. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 1090 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 76. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 1150 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 725 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 72. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 725 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 73. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 735 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 74. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 745 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 74. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 745 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 74. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 745 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 75. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 755 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 76. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 765 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 76. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 765 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 77. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 775 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 78. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 785 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 78. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 785 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 79. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 795 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 80. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 805 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 80. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 805 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 80. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 805 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 80. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 805 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 81. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 815 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 82. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 1240 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 825 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 82. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 825 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 82. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 825 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 83. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 1255 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 835 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 84. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 845 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 84. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 845 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 85. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 855 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 86. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 1300 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 865 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 86. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 865 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 87. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 1315 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 875 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 88. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 88. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 885 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 88. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 1330 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 88. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 89. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 895 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 90. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 1360 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 90. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 1360 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 90. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 1360 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 905 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 90. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 905 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 90. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 905 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 91. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 1375 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 91. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 1375 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 91. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 1375 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 92. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 1390 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 915 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 92. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 925 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 92. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 925 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 93. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 935 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 94. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 1420 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 945 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 94. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 945 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 95. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 1435 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 955 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 96. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 1450 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 965 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 96. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 965 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 96. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 965 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 96. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 965 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 97. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 975 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 97. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 975 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 97. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 975 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 98. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 985 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 99. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 995 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 100. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1005 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 100. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1005 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 101. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1015 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 101. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1015 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 102. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1025 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 103. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1035 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 104. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1045 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 104. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1045 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 104. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 1570 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 104. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 1570 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 106. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 1600 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 106. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 1600 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1045 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 104. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 1045 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 105. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1055 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 105. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1055 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 105. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 1055 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 106. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1065 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 107. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1075 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 108. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1085 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 108. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1085 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 109. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1095 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 109. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1095 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 110. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1105 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 111. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1115 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 112. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1125 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 112. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1125 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 112. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 1125 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 112. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 1125 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 113. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 1705 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1135 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 113. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1135 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 113. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 1135 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 114. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1145 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 115. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1155 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 116. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 1750 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1165 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 116. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1165 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 117. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 1765 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1175 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 117. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1175 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 118. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1185 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 119. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1195 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 120. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 1810 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1205 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 120. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1205 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 120. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 1810 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 120. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 1810 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1205 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 120. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 1205 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 121. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 1825 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1215 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 121. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1215 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 121. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 1825 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 121. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 1825 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1215 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 122. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1225 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 123. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1235 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 124. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 1870 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1245 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 124. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1245 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 125. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 1885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1255 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 125. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1255 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 126. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1265 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 127. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1275 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 128. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1285 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 128. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1285 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 128. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 1930 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1285 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 128. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 1285 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 129. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1295 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 130. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1305 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 130. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1305 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 131. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1315 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 132. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 132. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 132. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 1325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 132. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 1325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 133. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1335 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 134. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1345 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 134. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1345 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 135. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1355 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 136. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1365 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 136. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1365 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 136. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 1365 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 137. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1375 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 138. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1385 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 138. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1385 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 139. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1395 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 140. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1405 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 140. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1405 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 140. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 1405 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 141. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1415 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 142. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1425 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 142. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1425 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 143. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1435 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 144. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1445 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 144. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1445 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 144. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 1445 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 144. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 1445 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 145. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1455 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 146. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 2200 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1465 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 146. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1465 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 147. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 2215 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1475 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 148. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1485 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 148. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1485 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 148. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 1485 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 148. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 1485 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 149. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1495 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 150. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 2260 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 150. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 2260 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 150. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 2260 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1505 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 150. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1505 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 151. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 2275 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 151. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 2275 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 151. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 2275 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1515 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 152. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1525 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 152. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1525 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 152. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 1525 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 153. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1535 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 154. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 2320 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1545 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 154. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1545 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 155. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 2335 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1555 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 156. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 156. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 156. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 1565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 157. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1575 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 158. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 2380 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1585 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 158. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1585 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 159. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 2395 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1595 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 160. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 2410 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 164. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 2470 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 164. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 2470 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 166. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 2500 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 166. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 2500 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1605 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 160. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1605 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 160. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 1605 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 160. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 1605 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 161. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1615 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 161. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1615 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 162. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1625 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 163. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1635 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 164. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 164. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 164. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 1645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 164. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 1645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 165. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1655 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 165. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1655 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 166. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1665 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 167. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1675 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 168. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1685 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 168. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1685 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 168. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 1685 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 169. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1695 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 169. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1695 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 170. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1705 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 171. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1715 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 172. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1725 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 172. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1725 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 172. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 1725 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 173. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1735 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 173. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1735 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 174. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1745 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 175. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1755 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 176. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1765 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 176. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1765 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 176. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 1765 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 176. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 1765 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 177. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 2665 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1775 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 177. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1775 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 178. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1785 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 179. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1795 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 180. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 2710 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 180. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 2710 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 180. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 2710 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1805 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 180. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1805 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 180. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 1805 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 180. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 1805 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 181. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 2725 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 181. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 2725 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 181. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 2725 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1815 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 181. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1815 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 182. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1825 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 183. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1835 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 184. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 2770 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1845 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 184. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1845 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 184. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 1845 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 185. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 2785 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1855 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 185. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1855 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 186. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1865 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 187. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1875 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 188. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 2830 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 188. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 188. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 1885 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 189. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 2845 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1895 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 189. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1895 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 190. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1905 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 191. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1915 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 192. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1925 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 192. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1925 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 192. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 2890 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1925 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 192. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 2890 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 196. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 2950 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 1925 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 193. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1935 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 194. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1945 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 194. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1945 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 194. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 1945 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 194. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 1945 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 195. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1955 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 196. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1965 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 196. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1965 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 197. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1975 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 198. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 1985 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 198. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1985 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 199. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 1995 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 200. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2005 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 200. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2005 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 200. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 2005 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 201. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2015 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 202. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2025 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 202. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2025 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 202. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 2025 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 203. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2035 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 204. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2045 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 204. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2045 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 205. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2055 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 206. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2065 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 206. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2065 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 207. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2075 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 208. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2085 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 208. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2085 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 208. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 3130 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2085 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 208. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 2085 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 209. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2095 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 210. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 3160 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 210. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 3160 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 210. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 3160 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2105 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 210. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2105 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 210. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 2105 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 210. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 2105 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 211. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 3175 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 211. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 3175 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 211. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 3175 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 212. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 3190 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2115 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 212. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2125 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 212. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2125 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 213. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2135 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 214. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 3220 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2145 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 214. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2145 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 215. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 3235 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2155 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 216. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2165 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 216. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2165 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 216. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 2165 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 217. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2175 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 218. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 3280 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2185 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 218. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2185 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 218. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 2185 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 219. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 3295 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2195 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 220. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2205 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 220. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2205 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 221. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2215 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 222. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 3340 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2225 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 222. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2225 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 223. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 3355 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2235 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 224. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 3370 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2245 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 224. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2245 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 224. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 3370 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2245 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 224. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 3370 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 226. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 3400 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 226. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 3400 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2245 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 225. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2255 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 225. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2255 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 225. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 2255 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 225. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 2255 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 226. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2265 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 227. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2275 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 228. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2285 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 228. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2285 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 229. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2295 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 229. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2295 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 230. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2305 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 231. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2315 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 232. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 232. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 232. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 2325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 233. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2335 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 233. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2335 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 233. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 2335 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 234. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2345 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 235. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2355 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 236. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2365 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 236. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2365 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 237. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2375 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 237. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2375 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 238. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2385 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 239. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2395 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 240. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2405 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 240. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2405 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 240. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 3610 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2405 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 240. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 3610 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2405 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 240. Esperado pg_expected ='1'Valor Obtido: pg ='0'
+#    Time: 2405 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 241. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 3625 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2415 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 241. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2415 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 241. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 3625 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2415 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 241. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 3625 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2415 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 242. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2425 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 243. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2435 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 244. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 3670 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2445 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 244. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2445 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 245. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 3685 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2455 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 245. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2455 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 246. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2465 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 247. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2475 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 248. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 3730 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2485 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 248. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2485 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 248. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 2485 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 249. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 3745 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2495 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 249. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2495 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 249. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 2495 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 250. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2505 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 251. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2515 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 252. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 3790 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2525 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 252. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2525 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 253. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
-#    Time: 3805 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 286. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 4300 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 287. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 4315 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2535 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 253. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2535 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 254. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2545 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 255. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2555 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 256. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 256. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 256. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 2565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 256. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 2565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 256. Esperado pg_expected ='0'Valor Obtido: pg ='1'
+#    Time: 2565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 257. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2575 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 258. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2585 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 258. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2585 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 259. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2595 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 260. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2605 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 260. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2605 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 260. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 2605 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 261. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2615 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 262. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2625 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 262. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2625 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 263. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2635 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 264. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 264. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 264. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 2645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 264. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 2645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 265. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2655 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 266. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2665 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 266. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2665 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 267. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2675 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 268. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2685 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 268. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2685 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 268. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 2685 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 269. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2695 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 270. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2705 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 270. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2705 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 271. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2715 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 272. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2725 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 272. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 2725 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 272. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 2725 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 274. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2745 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 276. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2765 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 276. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 2765 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 278. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2785 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 280. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2805 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 280. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 2805 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 280. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 2805 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 282. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2825 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 284. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2845 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 284. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 2845 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 286. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2865 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 288. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 4330 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 300. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 4510 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 300. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 4510 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 302. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 4540 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 302. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 4540 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 316. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 4750 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 317. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 4765 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 2885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 288. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 288. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 2885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 288. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 2885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 289. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2895 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 289. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2895 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 290. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2905 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 291. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2915 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 292. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2925 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 292. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2925 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 292. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 2925 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 293. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2935 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 293. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2935 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 294. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2945 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 295. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2955 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 296. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2965 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 296. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2965 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 296. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 2965 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 296. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 2965 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 297. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2975 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 297. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2975 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 298. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 2985 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 299. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 2995 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 300. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3005 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 300. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3005 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 300. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 3005 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 301. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3015 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 301. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3015 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 302. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3025 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 303. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3035 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 304. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 3045 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 304. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 3045 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 308. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 3085 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 312. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 3125 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 312. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 3125 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 316. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 3165 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 320. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3205 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 320. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3205 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 320. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 3205 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 320. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 3205 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 321. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3215 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 322. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3225 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 322. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3225 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 322. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 3225 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 323. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3235 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 324. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3245 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 324. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3245 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 325. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3255 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 326. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3265 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 326. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3265 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 327. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3275 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 328. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3285 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 328. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3285 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 328. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 4930 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 332. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 4990 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 3285 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 328. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 3285 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 329. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3295 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 330. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3305 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 330. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3305 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 330. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 3305 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 331. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3315 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 332. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 332. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 333. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3335 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 334. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3345 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 334. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3345 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 335. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3355 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 336. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3365 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 336. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 3365 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 336. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 3365 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 338. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3385 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 338. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 3385 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 340. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3405 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 342. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3425 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 344. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3445 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 344. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 5170 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 346. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 5200 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 347. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 5215 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 348. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 5230 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 3445 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 344. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 3445 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 346. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3465 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 346. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 3465 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 348. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3485 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 350. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3505 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 352. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 5290 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 3525 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 352. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3525 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 352. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 3525 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 352. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 3525 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 353. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3535 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 353. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3535 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 353. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 3535 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 354. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3545 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 355. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3555 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 356. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 356. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 357. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3575 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 357. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3575 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 358. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3585 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 359. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3595 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 360. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3605 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 360. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3605 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 360. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 5410 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 360. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 5410 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 362. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 5440 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 362. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 5440 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 376. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 5650 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 377. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 5665 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 3605 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 360. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 3605 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 361. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3615 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 361. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3615 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 361. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 3615 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 362. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3625 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 363. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3635 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 364. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 364. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 365. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3655 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 365. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3655 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 366. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3665 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 367. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3675 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 368. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 3685 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 376. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 3765 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 384. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3845 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 384. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3845 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 384. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 5770 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 406. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 6100 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 407. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 6115 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 3845 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 384. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 3845 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 385. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3855 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 386. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3865 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 386. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3865 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 387. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3875 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 388. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 388. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 388. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 3885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 388. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 3885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 389. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3895 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 390. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3905 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 390. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3905 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 391. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3915 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 392. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3925 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 392. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3925 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 392. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 3925 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 393. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3935 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 394. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3945 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 394. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3945 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 395. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3955 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 396. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3965 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 396. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3965 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 396. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 3965 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 397. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3975 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 398. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 3985 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 398. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3985 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 399. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 3995 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 400. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4005 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 400. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 4005 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 400. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 4005 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 402. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4025 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 404. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4045 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 404. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 4045 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 404. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 4045 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 406. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4065 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 408. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4085 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 408. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 4085 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 410. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4105 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 412. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4125 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 412. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 4125 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 414. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4145 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 416. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 6250 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 420. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 6310 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 420. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 6310 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 422. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 6340 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 422. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 6340 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 436. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 6550 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 437. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 6565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 4165 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 416. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4165 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 416. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 4165 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 416. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 4165 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 417. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4175 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 417. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4175 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 418. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4185 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 419. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4195 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 420. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4205 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 420. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4205 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 420. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 4205 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 420. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 4205 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 421. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4215 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 421. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4215 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 422. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4225 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 423. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4235 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 424. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4245 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 424. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4245 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 424. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 4245 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 425. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4255 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 425. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4255 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 426. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4265 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 427. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4275 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 428. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4285 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 428. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4285 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 428. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 4285 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 429. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4295 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 429. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4295 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 430. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4305 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 431. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4315 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 432. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 4325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 432. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 4325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 436. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 4365 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 436. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 4365 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 440. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 4405 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 444. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 4445 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 448. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4485 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 448. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4485 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 448. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 6730 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 4485 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 448. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 6730 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 452. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 6790 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 4485 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 449. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4495 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 450. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4505 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 450. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4505 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 450. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 4505 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 450. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 4505 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 451. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4515 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 452. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4525 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 452. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4525 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 453. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4535 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 454. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4545 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 454. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4545 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 455. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4555 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 456. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 456. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 456. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 4565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 457. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4575 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 458. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4585 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 458. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4585 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 458. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 4585 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 459. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4595 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 460. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4605 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 460. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4605 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 461. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4615 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 462. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4625 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 462. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4625 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 463. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4635 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 464. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4645 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 464. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 6970 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 466. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 7 us  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 467. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 7015 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 468. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 7030 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 4645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 464. Esperado gg_expected ='0'Valor Obtido: gg ='1'
+#    Time: 4645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 466. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4665 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 466. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 4665 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 466. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 4665 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 468. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4685 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 470. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4705 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 472. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4725 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 472. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 4725 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 474. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4745 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 474. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 4745 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 476. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4765 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 478. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4785 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 480. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
-#    Time: 7210 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 4805 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 480. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4805 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 480. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
-#    Time: 7210 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 4805 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 480. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 7210 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 482. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
-#    Time: 7240 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Error: Vetor deu erro n. Teste: 482. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 7240 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 4805 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 481. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4815 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 481. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4815 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 481. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 4815 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 481. Esperado gg_expected ='1'Valor Obtido: gg ='0'
+#    Time: 4815 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 482. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4825 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 483. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4835 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 484. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4845 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 484. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4845 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 485. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4855 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 485. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4855 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 486. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4865 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 487. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4875 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 488. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 488. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 488. Esperado c_expected ='0'Valor Obtido: c(3) ='1'
+#    Time: 4885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 489. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4895 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 489. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4895 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 489. Esperado c_expected ='1'Valor Obtido: c(3) ='0'
+#    Time: 4895 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 490. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4905 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 491. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4915 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 492. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4925 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 492. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4925 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 493. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4935 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 493. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4935 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 494. Esperado c_expected ='0'Valor Obtido: c(1) ='1'
+#    Time: 4945 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 495. Esperado c_expected ='1'Valor Obtido: c(1) ='0'
+#    Time: 4955 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 496. Esperado gg_expected ='0'Valor Obtido: gg ='1'
-#    Time: 7450 ns  Iteration: 1  Instance: /testbench_vuafatorada
+#    Time: 4965 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 496. Esperado pg_expected ='1'Valor Obtido: pg ='0'
+#    Time: 4965 ns  Iteration: 1  Instance: /testbench_vuafatorada
 # ** Error: Vetor deu erro n. Teste: 497. Esperado gg_expected ='1'Valor Obtido: gg ='0'
-#    Time: 7465 ns  Iteration: 1  Instance: /testbench_vuafatorada
-# ** Failure: 512tests completed, errors = 454
-#    Time: 7675 ns  Iteration: 1  Process: /testbench_vuafatorada/line__79 File: C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd
-# Break in Process line__79 at C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd line 116
-# Simulation Breakpoint: Break in Process line__79 at C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd line 116
+#    Time: 4975 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Failure: 512tests completed, errors = 1340
+#    Time: 5115 ns  Iteration: 1  Process: /testbench_vuafatorada/line__79 File: E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd
+# Break in Process line__79 at E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd line 116
+# Simulation Breakpoint: Break in Process line__79 at E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd line 116
 # MACRO ./vuafatorada_run_msim_gate_vhdl.do PAUSED at line 17
 do vuafatorada_run_msim_gate_vhdl.do
 # transcript on
@@ -490,7 +1687,7 @@ do vuafatorada_run_msim_gate_vhdl.do
 # -- Compiling entity vuafatorada
 # -- Compiling architecture structure of vuafatorada
 # 
-# vcom -93 -work work {C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd}
+# vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -521,7 +1718,264 @@ do vuafatorada_run_msim_gate_vhdl.do
 # Loading instances from vuafatorada_vhd.sdo
 # Loading timing data from vuafatorada_vhd.sdo
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_vuafatorada File: C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_vuafatorada File: E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: Vetor deu erro n. Teste: 32. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 490 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 33. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 505 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 36. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 550 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 37. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 40. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 610 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 41. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 625 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 44. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 670 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 45. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 685 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 48. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 730 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 49. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 745 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 52. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 790 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 53. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 805 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 56. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 850 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 57. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 865 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 60. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 910 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 61. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 925 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 96. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1450 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 97. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1465 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 100. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1510 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 101. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1525 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 104. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1570 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 105. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1585 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 108. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1630 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 109. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1645 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 112. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1690 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 113. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1705 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 116. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1750 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 117. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1765 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 120. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1810 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 121. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1825 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 124. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 1870 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 125. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 1885 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 160. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2410 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 161. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2425 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 164. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2470 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 165. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2485 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 168. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2530 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 169. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2545 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 172. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2590 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 173. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2605 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 176. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2650 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 177. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2665 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 180. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2710 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 181. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2725 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 184. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2770 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 185. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2785 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 188. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 2830 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 189. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 2845 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 224. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3370 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 225. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3385 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 228. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3430 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 229. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3445 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 232. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3490 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 233. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3505 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 236. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3550 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 237. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3565 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 240. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3610 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 241. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3625 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 244. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3670 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 245. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3685 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 248. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3730 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 249. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3745 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 252. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 3790 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 253. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 3805 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 288. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4330 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 289. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4345 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 292. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4390 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 293. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4405 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 296. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4450 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 297. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4465 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 300. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 4510 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 301. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 4525 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 352. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 5290 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 353. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 5305 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 356. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 5350 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 357. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 5365 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 360. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 5410 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 361. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 5425 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 364. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 5470 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 365. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 5485 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 416. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 6250 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 417. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 6265 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 420. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 6310 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 421. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 6325 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 424. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 6370 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 425. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 6385 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 428. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 6430 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 429. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 6445 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 480. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 7210 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 481. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 7225 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 484. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 7270 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 485. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 7285 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 488. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 7330 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 489. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 7345 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 492. Esperado c_expected ='0'Valor Obtido: c(2) ='1'
+#    Time: 7390 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Error: Vetor deu erro n. Teste: 493. Esperado c_expected ='1'Valor Obtido: c(2) ='0'
+#    Time: 7405 ns  Iteration: 1  Instance: /testbench_vuafatorada
+# ** Failure: 512tests completed, errors = 288
+#    Time: 7675 ns  Iteration: 1  Process: /testbench_vuafatorada/line__79 File: E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd
+# Break in Process line__79 at E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd line 116
+# Simulation Breakpoint: Break in Process line__79 at E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd line 116
+# MACRO ./vuafatorada_run_msim_gate_vhdl.do PAUSED at line 17
+do vuafatorada_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {vuafatorada.vho}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity vuafatorada
+# -- Compiling architecture structure of vuafatorada
+# 
+# vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity testbench_vuafatorada
+# -- Compiling architecture sim of testbench_vuafatorada
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=vuafatorada_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc"  testbench_vuafatorada
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=vuafatorada_vhd.sdo -t 1ps testbench_vuafatorada 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_vuafatorada(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.vuafatorada(structure)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading instances from vuafatorada_vhd.sdo
+# Loading timing data from vuafatorada_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_vuafatorada File: E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd
 # 
 # add wave *
 # view structure
@@ -530,7 +1984,7 @@ do vuafatorada_run_msim_gate_vhdl.do
 # .main_pane.objects.interior.cs.body.tree
 # run -all
 # ** Failure: Just kidding -- 512tests completed successfully.
-#    Time: 10235 ns  Iteration: 1  Process: /testbench_vuafatorada/line__79 File: C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd
-# Break in Process line__79 at C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd line 111
-# Simulation Breakpoint: Break in Process line__79 at C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd line 111
+#    Time: 10235 ns  Iteration: 1  Process: /testbench_vuafatorada/line__79 File: E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd
+# Break in Process line__79 at E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd line 111
+# Simulation Breakpoint: Break in Process line__79 at E:/CircuitoLógicoAula/Projetos_CL/VUA Fatorada/testbench/testbench_vuafatorada.vhd line 111
 # MACRO ./vuafatorada_run_msim_gate_vhdl.do PAUSED at line 17

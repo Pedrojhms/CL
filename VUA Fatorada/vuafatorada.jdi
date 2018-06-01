@@ -1,7 +1,7 @@
 <sld_project_info>
   <file_info>
-    <file checksum="0x00074702" device="EP2C5T144C6" path="vuafatorada.sof" usercode="0xFFFFFFFF"/>
-    <file checksum="0x0752F171" device="EPCS4" path="vuafatorada.pof" usercode="0x00000000"/>
+    <file checksum="0x0007439A" device="EP2C5T144C6" path="vuafatorada.sof" usercode="0xFFFFFFFF"/>
+    <file checksum="0x0752FD5C" device="EPCS4" path="vuafatorada.pof" usercode="0x00000000"/>
   </file_info>
   <hub_info ir_width="0" node_count="0"/>
   <node_info/>

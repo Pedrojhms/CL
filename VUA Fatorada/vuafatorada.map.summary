@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Wed May 23 19:18:06 2018
+Analysis & Synthesis Status : Successful - Fri Jun 01 16:31:17 2018
 Quartus II 32-bit Version : 11.1 Build 173 11/01/2011 SJ Web Edition
 Revision Name : vuafatorada
 Top-level Entity Name : vuafatorada
 Family : Cyclone II
-Total logic elements : 8
-    Total combinational functions : 8
+Total logic elements : 7
+    Total combinational functions : 7
     Dedicated logic registers : 0
 Total registers : 0
-Total pins : 15
+Total pins : 14
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

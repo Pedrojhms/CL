@@ -1,6 +1,6 @@
 |vuaparalela
-c0 => c.IN1
-c0 => c.IN0
+cin => c.IN1
+cin => c.IN0
 p[0] => pg.IN0
 p[0] => c.IN1
 p[1] => pg.IN1
@@ -17,9 +17,6 @@ p[3] => pg.IN1
 p[3] => gg.IN0
 p[3] => gg.IN0
 p[3] => gg.IN0
-p[3] => c.IN1
-p[3] => c.IN1
-p[3] => c.IN1
 g[0] => gg.IN1
 g[0] => c.IN1
 g[0] => c.IN1
@@ -29,5 +26,8 @@ g[1] => c.IN1
 g[2] => gg.IN1
 g[2] => c.IN1
 g[3] => gg.IN1
+c[1] <> c[1]
+c[2] <> c[2]
+c[3] <> c[3]
 
 

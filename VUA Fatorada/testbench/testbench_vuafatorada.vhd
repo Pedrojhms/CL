@@ -9,28 +9,28 @@ end;
 
 architecture sim of testbench_vuafatorada is
 	component vuafatorada
-		port (c0: in STD_LOGIC;
+		port (cin: in STD_LOGIC;
 			  p, g: in STD_LOGIC_VECTOR(3 downto 0);
 			  pg, gg: out STD_LOGIC;
-			  c: buffer STD_LOGIC_VECTOR(3 downto 0));
+			  c: inout STD_LOGIC_VECTOR(3 downto 1));
 	end component;
 	
 signal clk: STD_LOGIC;
-signal c0: STD_LOGIC;
+signal cin: STD_LOGIC;
 signal p, g: STD_LOGIC_VECTOR(3 downto 0);
 signal pg, gg: STD_LOGIC;
-signal c: STD_LOGIC_VECTOR(3 downto 0);
+signal c: STD_LOGIC_VECTOR(3 downto 1);
 signal pg_expected, gg_expected: STD_LOGIC;
-signal c_expected: STD_LOGIC_VECTOR(3 downto 0);
+signal c_expected: STD_LOGIC_VECTOR(3 downto 1);
 
 constant MEMSIZE: integer := 512;
 type tvarray is array (MEMSIZE downto 0) of
-STD_LOGIC_VECTOR (14 downto 0);
+STD_LOGIC_VECTOR (13 downto 0);
 signal testvectors: tvarray;
 shared variable vectornum, errors: integer;
 begin
 -- instantiate device under test
-dut: vuafatorada port map (c0, p, g, pg, gg, c);
+dut: vuafatorada port map (cin, p, g, pg, gg, c);
 -- generate clock
 process begin
 	clk <= '1'; wait for 15 ns;  
@@ -49,7 +49,7 @@ begin
 	FILE_OPEN (tv, "vuafatorada.tv", READ_MODE);
 	while not endfile(tv) loop
 		readline (tv, L);
-		for j in 14 downto 0 loop
+		for j in 13 downto 0 loop
 			read (L, ch);
 			if (ch = '_') then read (L, ch);
 			end if;
@@ -67,18 +67,18 @@ end process;
 -- apply test vectors on rising edge of clk
 process (clk) begin
 	if (clk'event and clk='1') then   
-		p <= testvectors (vectornum) (14 downto 11); --after 1 ns;
-		g <= testvectors (vectornum) (10 downto 7); --after 1 ns;
-		c0 <= testvectors (vectornum) (6); --after 1 ns;
-		gg_expected <= testvectors (vectornum)(5); --after 1 ns;
-		pg_expected <= testvectors (vectornum)(4); --after 1 ns;
-		c_expected <= testvectors (vectornum)(3 downto 0); --after 1 ns;
+		p <= testvectors (vectornum) (13 downto 10); --after 1 ns;
+		g <= testvectors (vectornum) (9 downto 6); --after 1 ns;
+		cin <= testvectors (vectornum) (5); --after 1 ns;
+		gg_expected <= testvectors (vectornum)(4); --after 1 ns;
+		pg_expected <= testvectors (vectornum)(3); --after 1 ns;
+		c_expected <= testvectors (vectornum)(2 downto 0); --after 1 ns;
 	end if;
 end process;
 -- check results on falling edge of clk
 process (clk) begin
 	if (clk'event and clk = '0')then
-		for k in 0 to 3 loop
+		for k in 1 to 3 loop
 			assert c(k)= c_expected(k)
 				report "Vetor deu erro n. Teste: " &integer'image(vectornum)&". Esperado c_expected ="& STD_LOGIC'image(c_expected(k))&"Valor Obtido: c("&integer'image(k)&") ="& STD_LOGIC'image(c(k));
 			
