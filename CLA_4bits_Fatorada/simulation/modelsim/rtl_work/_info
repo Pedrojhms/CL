@@ -1,0 +1,141 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\CircuitoLógicoAula\Projetos_CL\CLA_4bits_Fatorada\simulation\modelsim
+Ecla4
+Z1 w1527871770
+Z2 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dE:\CircuitoLógicoAula\Projetos_CL\CLA_4bits_Fatorada\simulation\modelsim
+Z5 8E:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/cla4.vhd
+Z6 FE:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/cla4.vhd
+l0
+L3
+V=MkBG9Gg^QdAgeEEQD^bF1
+Z7 OV;C;10.0c;49
+31
+Z8 !s108 1527883027.845000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/cla4.vhd|
+Z10 !s107 E:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/cla4.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 VFRI>I8>I]^G0]K4Qfg[12
+Astruct
+R2
+R3
+DEx4 work 4 cla4 0 22 =MkBG9Gg^QdAgeEEQD^bF1
+l28
+L10
+VVkeSLi^NR:j693o?ZDiHm1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 Pa_D3l=;W6j^EeB@Hj4_H1
+Efulladder_pg
+Z13 w1527864402
+R2
+R3
+R4
+Z14 8E:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/fulladder_pg.vhd
+Z15 FE:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/fulladder_pg.vhd
+l0
+L3
+VZgA5c3khfm97WB3gO1[]S0
+R7
+31
+Z16 !s108 1527883028.507000
+Z17 !s90 -reportprogress|300|-93|-work|work|E:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/fulladder_pg.vhd|
+Z18 !s107 E:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/fulladder_pg.vhd|
+R11
+R12
+!s100 FGCJ^nGFT7mV0IY8^SLLg3
+Asynth
+R2
+R3
+DEx4 work 12 fulladder_pg 0 22 ZgA5c3khfm97WB3gO1[]S0
+l11
+L9
+VKN<;b:ih>k_j;NAYZ`0EM0
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 b7MBF[iTN0FHG3<Tf7E430
+Etestbench_cla4
+Z19 w1527873196
+Z20 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z21 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R2
+R3
+R4
+Z22 8E:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/testbench/testbench_cla4.vhd
+Z23 FE:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/testbench/testbench_cla4.vhd
+l0
+L7
+VdEPT53Dbg6?QH^LAN7_JO3
+!s100 NmVfbzSCGd<UzBT[YSYTn1
+R7
+31
+Z24 !s108 1527883029.694000
+Z25 !s90 -reportprogress|300|-93|-work|work|E:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/testbench/testbench_cla4.vhd|
+Z26 !s107 E:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/testbench/testbench_cla4.vhd|
+R11
+R12
+Asim
+R20
+R21
+R2
+R3
+DEx4 work 14 testbench_cla4 0 22 dEPT53Dbg6?QH^LAN7_JO3
+l31
+L10
+V4ZKkYUQQGTfhB>bgnKijc2
+!s100 S6ACiDdC3cMMN=YE[a0d?3
+R7
+31
+R24
+R25
+R26
+R11
+R12
+Evuafatorada
+Z27 w1527871340
+R2
+R3
+R4
+Z28 8E:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/vuafatorada.vhd
+Z29 FE:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/vuafatorada.vhd
+l0
+L3
+VK8noJH3=4kC`h@E^a;bGX3
+R7
+31
+Z30 !s108 1527883029.083000
+Z31 !s90 -reportprogress|300|-93|-work|work|E:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/vuafatorada.vhd|
+Z32 !s107 E:/CircuitoLógicoAula/Projetos_CL/CLA_4bits_Fatorada/vuafatorada.vhd|
+R11
+R12
+!s100 R@7D`_aaKYE?`4zlZ^`Pa3
+Asynth
+R2
+R3
+DEx4 work 11 vuafatorada 0 22 K8noJH3=4kC`h@E^a;bGX3
+l11
+L10
+V[Mg:>[;dWU[k6lX??kkA?2
+R7
+31
+R30
+R31
+R32
+R11
+R12
+!s100 SgD6h]:0gR`S]UJM;3@g<1
