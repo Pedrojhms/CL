@@ -1,0 +1,621 @@
+|ula16
+a[0] => inversor:inv.a[0]
+a[0] => mux2:mux_0.d0[0]
+a[1] => inversor:inv.a[1]
+a[1] => mux2:mux_0.d0[1]
+a[2] => inversor:inv.a[2]
+a[2] => mux2:mux_0.d0[2]
+a[3] => inversor:inv.a[3]
+a[3] => mux2:mux_0.d0[3]
+a[4] => inversor:inv.a[4]
+a[4] => mux2:mux_0.d0[4]
+a[5] => inversor:inv.a[5]
+a[5] => mux2:mux_0.d0[5]
+a[6] => inversor:inv.a[6]
+a[6] => mux2:mux_0.d0[6]
+a[7] => inversor:inv.a[7]
+a[7] => mux2:mux_0.d0[7]
+a[8] => inversor:inv.a[8]
+a[8] => mux2:mux_0.d0[8]
+a[9] => inversor:inv.a[9]
+a[9] => mux2:mux_0.d0[9]
+a[10] => inversor:inv.a[10]
+a[10] => mux2:mux_0.d0[10]
+a[11] => inversor:inv.a[11]
+a[11] => mux2:mux_0.d0[11]
+a[12] => inversor:inv.a[12]
+a[12] => mux2:mux_0.d0[12]
+a[13] => inversor:inv.a[13]
+a[13] => mux2:mux_0.d0[13]
+a[14] => inversor:inv.a[14]
+a[14] => mux2:mux_0.d0[14]
+a[15] => inversor:inv.a[15]
+a[15] => mux2:mux_0.d0[15]
+clk => flop:acc.clk
+sel0 => mux2:mux_0.sel
+sel0 => cla16:somador.cin
+sel1 => mux2:mux_1.sel
+cout <> cla16:somador.cout
+
+
+|ula16|inversor:inv
+a[0] => y[0].DATAIN
+a[1] => y[1].DATAIN
+a[2] => y[2].DATAIN
+a[3] => y[3].DATAIN
+a[4] => y[4].DATAIN
+a[5] => y[5].DATAIN
+a[6] => y[6].DATAIN
+a[7] => y[7].DATAIN
+a[8] => y[8].DATAIN
+a[9] => y[9].DATAIN
+a[10] => y[10].DATAIN
+a[11] => y[11].DATAIN
+a[12] => y[12].DATAIN
+a[13] => y[13].DATAIN
+a[14] => y[14].DATAIN
+a[15] => y[15].DATAIN
+
+
+|ula16|mux2:mux_0
+d0[0] => y.DATAA
+d0[1] => y.DATAA
+d0[2] => y.DATAA
+d0[3] => y.DATAA
+d0[4] => y.DATAA
+d0[5] => y.DATAA
+d0[6] => y.DATAA
+d0[7] => y.DATAA
+d0[8] => y.DATAA
+d0[9] => y.DATAA
+d0[10] => y.DATAA
+d0[11] => y.DATAA
+d0[12] => y.DATAA
+d0[13] => y.DATAA
+d0[14] => y.DATAA
+d0[15] => y.DATAA
+d1[0] => y.DATAB
+d1[1] => y.DATAB
+d1[2] => y.DATAB
+d1[3] => y.DATAB
+d1[4] => y.DATAB
+d1[5] => y.DATAB
+d1[6] => y.DATAB
+d1[7] => y.DATAB
+d1[8] => y.DATAB
+d1[9] => y.DATAB
+d1[10] => y.DATAB
+d1[11] => y.DATAB
+d1[12] => y.DATAB
+d1[13] => y.DATAB
+d1[14] => y.DATAB
+d1[15] => y.DATAB
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+
+
+|ula16|cla16:somador
+a[0] => cla4:cla4_1.a[0]
+a[1] => cla4:cla4_1.a[1]
+a[2] => cla4:cla4_1.a[2]
+a[3] => cla4:cla4_1.a[3]
+a[4] => cla4:cla4_2.a[0]
+a[5] => cla4:cla4_2.a[1]
+a[6] => cla4:cla4_2.a[2]
+a[7] => cla4:cla4_2.a[3]
+a[8] => cla4:cla4_3.a[0]
+a[9] => cla4:cla4_3.a[1]
+a[10] => cla4:cla4_3.a[2]
+a[11] => cla4:cla4_3.a[3]
+a[12] => cla4:cla4_4.a[0]
+a[13] => cla4:cla4_4.a[1]
+a[14] => cla4:cla4_4.a[2]
+a[15] => cla4:cla4_4.a[3]
+b[0] => cla4:cla4_1.b[0]
+b[1] => cla4:cla4_1.b[1]
+b[2] => cla4:cla4_1.b[2]
+b[3] => cla4:cla4_1.b[3]
+b[4] => cla4:cla4_2.b[0]
+b[5] => cla4:cla4_2.b[1]
+b[6] => cla4:cla4_2.b[2]
+b[7] => cla4:cla4_2.b[3]
+b[8] => cla4:cla4_3.b[0]
+b[9] => cla4:cla4_3.b[1]
+b[10] => cla4:cla4_3.b[2]
+b[11] => cla4:cla4_3.b[3]
+b[12] => cla4:cla4_4.b[0]
+b[13] => cla4:cla4_4.b[1]
+b[14] => cla4:cla4_4.b[2]
+b[15] => cla4:cla4_4.b[3]
+cin => cla4:cla4_1.cin
+cin => vuaparalela16bits:vua_16.cin
+cout <> cout
+
+
+|ula16|cla16:somador|cla4:cla4_1
+a[0] => fulladder_pg:somador0.a
+a[1] => fulladder_pg:somador1.a
+a[2] => fulladder_pg:somador2.a
+a[3] => fulladder_pg:somador3.a
+b[0] => fulladder_pg:somador0.b
+b[1] => fulladder_pg:somador1.b
+b[2] => fulladder_pg:somador2.b
+b[3] => fulladder_pg:somador3.b
+cin => fulladder_pg:somador0.cin
+cin => vuaparalela:carry.cin
+p <> vuaparalela:carry.pg
+g <> vuaparalela:carry.gg
+
+
+|ula16|cla16:somador|cla4:cla4_1|fulladder_pg:somador0
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_1|fulladder_pg:somador1
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_1|fulladder_pg:somador2
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_1|fulladder_pg:somador3
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_1|vuaparalela:carry
+p[0] => c.IN0
+p[0] => c.IN0
+p[1] => gg.IN1
+p[1] => c.IN1
+p[1] => c.IN0
+p[1] => c.IN1
+p[2] => pg.IN1
+p[2] => gg.IN1
+p[2] => gg.IN1
+p[2] => c.IN0
+p[2] => c.IN1
+p[2] => c.IN1
+p[3] => pg.IN1
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => gg.IN0
+g[0] => gg.IN1
+g[0] => c.IN1
+g[0] => c.IN1
+g[1] => gg.IN1
+g[1] => c.IN1
+g[1] => c.IN1
+g[2] => gg.IN1
+g[2] => c.IN1
+g[3] => gg.IN1
+cin => c.IN1
+cin => c.IN1
+c[1] <> c[1]
+c[2] <> c[2]
+c[3] <> c[3]
+pg <> pg
+gg <> gg
+
+
+|ula16|cla16:somador|cla4:cla4_2
+a[0] => fulladder_pg:somador0.a
+a[1] => fulladder_pg:somador1.a
+a[2] => fulladder_pg:somador2.a
+a[3] => fulladder_pg:somador3.a
+b[0] => fulladder_pg:somador0.b
+b[1] => fulladder_pg:somador1.b
+b[2] => fulladder_pg:somador2.b
+b[3] => fulladder_pg:somador3.b
+cin => fulladder_pg:somador0.cin
+cin => vuaparalela:carry.cin
+p <> vuaparalela:carry.pg
+g <> vuaparalela:carry.gg
+
+
+|ula16|cla16:somador|cla4:cla4_2|fulladder_pg:somador0
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_2|fulladder_pg:somador1
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_2|fulladder_pg:somador2
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_2|fulladder_pg:somador3
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_2|vuaparalela:carry
+p[0] => c.IN0
+p[0] => c.IN0
+p[1] => gg.IN1
+p[1] => c.IN1
+p[1] => c.IN0
+p[1] => c.IN1
+p[2] => pg.IN1
+p[2] => gg.IN1
+p[2] => gg.IN1
+p[2] => c.IN0
+p[2] => c.IN1
+p[2] => c.IN1
+p[3] => pg.IN1
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => gg.IN0
+g[0] => gg.IN1
+g[0] => c.IN1
+g[0] => c.IN1
+g[1] => gg.IN1
+g[1] => c.IN1
+g[1] => c.IN1
+g[2] => gg.IN1
+g[2] => c.IN1
+g[3] => gg.IN1
+cin => c.IN1
+cin => c.IN1
+c[1] <> c[1]
+c[2] <> c[2]
+c[3] <> c[3]
+pg <> pg
+gg <> gg
+
+
+|ula16|cla16:somador|cla4:cla4_3
+a[0] => fulladder_pg:somador0.a
+a[1] => fulladder_pg:somador1.a
+a[2] => fulladder_pg:somador2.a
+a[3] => fulladder_pg:somador3.a
+b[0] => fulladder_pg:somador0.b
+b[1] => fulladder_pg:somador1.b
+b[2] => fulladder_pg:somador2.b
+b[3] => fulladder_pg:somador3.b
+cin => fulladder_pg:somador0.cin
+cin => vuaparalela:carry.cin
+p <> vuaparalela:carry.pg
+g <> vuaparalela:carry.gg
+
+
+|ula16|cla16:somador|cla4:cla4_3|fulladder_pg:somador0
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_3|fulladder_pg:somador1
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_3|fulladder_pg:somador2
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_3|fulladder_pg:somador3
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_3|vuaparalela:carry
+p[0] => c.IN0
+p[0] => c.IN0
+p[1] => gg.IN1
+p[1] => c.IN1
+p[1] => c.IN0
+p[1] => c.IN1
+p[2] => pg.IN1
+p[2] => gg.IN1
+p[2] => gg.IN1
+p[2] => c.IN0
+p[2] => c.IN1
+p[2] => c.IN1
+p[3] => pg.IN1
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => gg.IN0
+g[0] => gg.IN1
+g[0] => c.IN1
+g[0] => c.IN1
+g[1] => gg.IN1
+g[1] => c.IN1
+g[1] => c.IN1
+g[2] => gg.IN1
+g[2] => c.IN1
+g[3] => gg.IN1
+cin => c.IN1
+cin => c.IN1
+c[1] <> c[1]
+c[2] <> c[2]
+c[3] <> c[3]
+pg <> pg
+gg <> gg
+
+
+|ula16|cla16:somador|cla4:cla4_4
+a[0] => fulladder_pg:somador0.a
+a[1] => fulladder_pg:somador1.a
+a[2] => fulladder_pg:somador2.a
+a[3] => fulladder_pg:somador3.a
+b[0] => fulladder_pg:somador0.b
+b[1] => fulladder_pg:somador1.b
+b[2] => fulladder_pg:somador2.b
+b[3] => fulladder_pg:somador3.b
+cin => fulladder_pg:somador0.cin
+cin => vuaparalela:carry.cin
+p <> vuaparalela:carry.pg
+g <> vuaparalela:carry.gg
+
+
+|ula16|cla16:somador|cla4:cla4_4|fulladder_pg:somador0
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_4|fulladder_pg:somador1
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_4|fulladder_pg:somador2
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_4|fulladder_pg:somador3
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|ula16|cla16:somador|cla4:cla4_4|vuaparalela:carry
+p[0] => c.IN0
+p[0] => c.IN0
+p[1] => gg.IN1
+p[1] => c.IN1
+p[1] => c.IN0
+p[1] => c.IN1
+p[2] => pg.IN1
+p[2] => gg.IN1
+p[2] => gg.IN1
+p[2] => c.IN0
+p[2] => c.IN1
+p[2] => c.IN1
+p[3] => pg.IN1
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => gg.IN0
+g[0] => gg.IN1
+g[0] => c.IN1
+g[0] => c.IN1
+g[1] => gg.IN1
+g[1] => c.IN1
+g[1] => c.IN1
+g[2] => gg.IN1
+g[2] => c.IN1
+g[3] => gg.IN1
+cin => c.IN1
+cin => c.IN1
+c[1] <> c[1]
+c[2] <> c[2]
+c[3] <> c[3]
+pg <> pg
+gg <> gg
+
+
+|ula16|cla16:somador|vuaparalela16bits:vua_16
+cin => c.IN1
+cin => c.IN0
+p[0] => c.IN0
+p[0] => c.IN1
+p[1] => c.IN1
+p[1] => c.IN0
+p[1] => c.IN1
+p[2] => c.IN0
+p[2] => c.IN1
+p[2] => c.IN1
+p[3] => cout.IN0
+p[3] => cout.IN1
+p[3] => cout.IN1
+p[3] => cout.IN1
+g[0] => c.IN1
+g[0] => c.IN1
+g[1] => c.IN1
+g[1] => c.IN1
+g[2] => c.IN1
+g[2] => cout.IN1
+g[3] => cout.IN1
+c[1] <> c[1]
+c[2] <> c[2]
+c[3] <> c[3]
+
+
+|ula16|mux2:mux_1
+d0[0] => y.DATAA
+d0[1] => y.DATAA
+d0[2] => y.DATAA
+d0[3] => y.DATAA
+d0[4] => y.DATAA
+d0[5] => y.DATAA
+d0[6] => y.DATAA
+d0[7] => y.DATAA
+d0[8] => y.DATAA
+d0[9] => y.DATAA
+d0[10] => y.DATAA
+d0[11] => y.DATAA
+d0[12] => y.DATAA
+d0[13] => y.DATAA
+d0[14] => y.DATAA
+d0[15] => y.DATAA
+d1[0] => y.DATAB
+d1[1] => y.DATAB
+d1[2] => y.DATAB
+d1[3] => y.DATAB
+d1[4] => y.DATAB
+d1[5] => y.DATAB
+d1[6] => y.DATAB
+d1[7] => y.DATAB
+d1[8] => y.DATAB
+d1[9] => y.DATAB
+d1[10] => y.DATAB
+d1[11] => y.DATAB
+d1[12] => y.DATAB
+d1[13] => y.DATAB
+d1[14] => y.DATAB
+d1[15] => y.DATAB
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+
+
+|ula16|flop:acc
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+clk => q[8]~reg0.CLK
+clk => q[9]~reg0.CLK
+clk => q[10]~reg0.CLK
+clk => q[11]~reg0.CLK
+clk => q[12]~reg0.CLK
+clk => q[13]~reg0.CLK
+clk => q[14]~reg0.CLK
+clk => q[15]~reg0.CLK
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+d[4] => q[4]~reg0.DATAIN
+d[5] => q[5]~reg0.DATAIN
+d[6] => q[6]~reg0.DATAIN
+d[7] => q[7]~reg0.DATAIN
+d[8] => q[8]~reg0.DATAIN
+d[9] => q[9]~reg0.DATAIN
+d[10] => q[10]~reg0.DATAIN
+d[11] => q[11]~reg0.DATAIN
+d[12] => q[12]~reg0.DATAIN
+d[13] => q[13]~reg0.DATAIN
+d[14] => q[14]~reg0.DATAIN
+d[15] => q[15]~reg0.DATAIN
+
+

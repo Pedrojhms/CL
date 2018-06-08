@@ -22,7 +22,7 @@ signal a, s: STD_LOGIC_VECTOR(15 downto 0);
 signal s_expected: STD_LOGIC_VECTOR(15 downto 0);
 signal cout_expected: STD_LOGIC;
 
-constant MEMSIZE: integer := 64;
+constant MEMSIZE: integer := 56;
 type tvarray is array (MEMSIZE downto 0) of
 STD_LOGIC_VECTOR (35 downto 0);
 signal testvectors: tvarray;

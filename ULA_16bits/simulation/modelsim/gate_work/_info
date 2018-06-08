@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\jpedr\OneDrive\Documentos\GitHub\CL\CL\ULA_16bits\simulation\modelsim
+Etestbench_ula16
+Z1 w1528497898
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\jpedr\OneDrive\Documentos\GitHub\CL\CL\ULA_16bits\simulation\modelsim
+Z7 8C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/ULA_16bits/testbench/testbench_ula16.vhd
+Z8 FC:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/ULA_16bits/testbench/testbench_ula16.vhd
+l0
+L7
+Vm2B1E9?eQio7lciVV[?oZ2
+!s100 ^<NAjn3OBg;kVKUi>UH3U2
+Z9 OV;C;10.0c;49
+31
+Z10 !s108 1528497935.426000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/ULA_16bits/testbench/testbench_ula16.vhd|
+Z12 !s107 C:/Users/jpedr/OneDrive/Documentos/GitHub/CL/CL/ULA_16bits/testbench/testbench_ula16.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+Asim
+R2
+R3
+R4
+R5
+DEx4 work 15 testbench_ula16 0 22 m2B1E9?eQio7lciVV[?oZ2
+l30
+L10
+VNmOWCBVKnnkV8eLVo0=Gj1
+!s100 WL@RKk[i^8]mS2_Vg5;[Q3
+R9
+31
+R10
+R11
+R12
+R13
+R14
+Eula16
+Z15 w1528497088
+Z16 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z17 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 o=N0l8I4MJLjBjVhHea821
+Z18 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+R4
+R5
+Z19 DPx9 cycloneii 20 cycloneii_components 0 22 en5XKOfU;kEMlD9<lVMcX1
+R6
+Z20 8ula16.vho
+Z21 Fula16.vho
+l0
+L34
+VHFPJDQXk>zV6eH?81fTF[3
+R9
+31
+Z22 !s108 1528497934.375000
+Z23 !s90 -reportprogress|300|-93|-work|work|ula16.vho|
+Z24 !s107 ula16.vho|
+R13
+R14
+!s100 e7k`ePjIPBKBDz>`<CMdm3
+Astructure
+R16
+R17
+R18
+R4
+R5
+R19
+DEx4 work 5 ula16 0 22 HFPJDQXk>zV6eH?81fTF[3
+l205
+L84
+VTTF;l]0iG<TVjP>fAIJoP1
+R9
+31
+R22
+R23
+R24
+R13
+R14
+!s100 I28T4aLED6<0IEma3^TI40
