@@ -18,7 +18,7 @@
 #
 # Quartus II 32-bit
 # Version 11.1 Build 173 11/01/2011 SJ Web Edition
-# Date created = 10:36:28  May 25, 2018
+# Date created = 19:56:11  June 06, 2018
 #
 # -------------------------------------------------------------------------- #
 #
@@ -40,8 +40,13 @@ set_global_assignment -name FAMILY "Cyclone II"
 set_global_assignment -name DEVICE EP2C5T144C6
 set_global_assignment -name TOP_LEVEL_ENTITY cla16
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 11.1
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:36:28  MAY 25, 2018"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:56:11  JUNE 06, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION 11.1
+set_global_assignment -name VHDL_FILE vuaparalela16bits.vhd
+set_global_assignment -name VHDL_FILE vuaparalela.vhd
+set_global_assignment -name VHDL_FILE fulladder_pg.vhd
+set_global_assignment -name VHDL_FILE cla16.vhd
+set_global_assignment -name VHDL_FILE cla4.vhd
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
@@ -50,11 +55,12 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulati
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name VHDL_FILE vuaparalela16bits.vhd
-set_global_assignment -name VHDL_FILE vuaparalela.vhd
-set_global_assignment -name VHDL_FILE fulladder.vhd
-set_global_assignment -name VHDL_FILE cla16.vhd
-set_global_assignment -name VHDL_FILE cla4.vhd
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH testbench_cla16 -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME testbench_cla16 -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME dut -section_id testbench_cla16
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME testbench_cla16 -section_id testbench_cla16
+set_global_assignment -name EDA_TEST_BENCH_FILE testbench/testbench_cla16.vhd -section_id testbench_cla16
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

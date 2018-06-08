@@ -3,8 +3,8 @@ library IEEE; use IEEE.STD_LOGIC_1164.all;
 entity cla16 is
 	port(a, b: in  STD_LOGIC_VECTOR(15 downto 0);
 		 cin:  in  STD_LOGIC;
-		 s:    out STD_LOGIC_VECTOR(15 downto 0);
-		 cout: out STD_LOGIC);
+		 cout: out STD_LOGIC;
+		 s:    out STD_LOGIC_VECTOR(15 downto 0));
 end;
 
 architecture struct of cla16 is

@@ -22,6 +22,36 @@ VHSM_ON
 -- Start VHDL Libraries --
 -- End VHDL Libraries --
 # entity
+cla16
+# storage
+db|cla16.(0).cnf
+db|cla16.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+cla16.vhd
+658f55ab9637a50714668f15491972
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
 cla4
 # storage
 db|cla16.(1).cnf
@@ -33,7 +63,7 @@ ON
 # case_insensitive
 # source_file
 cla4.vhd
-c0eea66f4fef5fe4f0194f56c490a8b0
+bb1782ceaa2713e727e48f49a5f4455
 5
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -69,18 +99,18 @@ cla4:cla4_4
 
 # end
 # entity
-cla16
+fulladder_pg
 # storage
-db|cla16.(0).cnf
-db|cla16.(0).cnf
+db|cla16.(2).cnf
+db|cla16.(2).cnf
 # logic_option {
 AUTO_RAM_RECOGNITION
 ON
 }
 # case_insensitive
 # source_file
-cla16.vhd
-ea3b3d87a8eba83ea57674c3d074eafa
+fulladder_pg.vhd
+41d6effc87a144549139d32994a2769a
 5
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -93,7 +123,22 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-|
+cla4:cla4_1|fulladder_pg:somador0
+cla4:cla4_1|fulladder_pg:somador1
+cla4:cla4_1|fulladder_pg:somador2
+cla4:cla4_1|fulladder_pg:somador3
+cla4:cla4_2|fulladder_pg:somador0
+cla4:cla4_2|fulladder_pg:somador1
+cla4:cla4_2|fulladder_pg:somador2
+cla4:cla4_2|fulladder_pg:somador3
+cla4:cla4_3|fulladder_pg:somador0
+cla4:cla4_3|fulladder_pg:somador1
+cla4:cla4_3|fulladder_pg:somador2
+cla4:cla4_3|fulladder_pg:somador3
+cla4:cla4_4|fulladder_pg:somador0
+cla4:cla4_4|fulladder_pg:somador1
+cla4:cla4_4|fulladder_pg:somador2
+cla4:cla4_4|fulladder_pg:somador3
 }
 # macro_sequence
 
@@ -101,8 +146,8 @@ ON
 # entity
 vuaparalela
 # storage
-db|cla16.(2).cnf
-db|cla16.(2).cnf
+db|cla16.(3).cnf
+db|cla16.(3).cnf
 # logic_option {
 AUTO_RAM_RECOGNITION
 ON
@@ -110,7 +155,7 @@ ON
 # case_insensitive
 # source_file
 vuaparalela.vhd
-544b4366b671c8a81630084b239844
+a2fcd4b6266fe65c649e1264d693e974
 5
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -132,7 +177,7 @@ USR
 PARAMETER_STRING
 USR
  constraint(c)
-4 downto 1
+3 downto 1
 PARAMETER_STRING
 USR
 }
@@ -141,51 +186,6 @@ cla4:cla4_1|vuaparalela:carry
 cla4:cla4_2|vuaparalela:carry
 cla4:cla4_3|vuaparalela:carry
 cla4:cla4_4|vuaparalela:carry
-}
-# macro_sequence
-
-# end
-# entity
-fulladder
-# storage
-db|cla16.(3).cnf
-db|cla16.(3).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-fulladder.vhd
-656080f04fe2b7ffc1f6313021d0d710
-5
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# hierarchies {
-cla4:cla4_1|fulladder:somador0
-cla4:cla4_1|fulladder:somador1
-cla4:cla4_1|fulladder:somador2
-cla4:cla4_1|fulladder:somador3
-cla4:cla4_2|fulladder:somador0
-cla4:cla4_2|fulladder:somador1
-cla4:cla4_2|fulladder:somador2
-cla4:cla4_2|fulladder:somador3
-cla4:cla4_3|fulladder:somador0
-cla4:cla4_3|fulladder:somador1
-cla4:cla4_3|fulladder:somador2
-cla4:cla4_3|fulladder:somador3
-cla4:cla4_4|fulladder:somador0
-cla4:cla4_4|fulladder:somador1
-cla4:cla4_4|fulladder:somador2
-cla4:cla4_4|fulladder:somador3
 }
 # macro_sequence
 
@@ -202,7 +202,7 @@ ON
 # case_insensitive
 # source_file
 vuaparalela16bits.vhd
-d3528dcca0a0394e332c12fa9b12f99
+4af2b192f77ab9e3322d657a89e52135
 5
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -224,12 +224,12 @@ USR
 PARAMETER_STRING
 USR
  constraint(c)
-4 downto 1
+3 downto 1
 PARAMETER_STRING
 USR
 }
 # hierarchies {
-vuaparalela16bits:v1
+vuaparalela16bits:vua_16
 }
 # macro_sequence
 

@@ -32,19 +32,64 @@ b[13] => cla4:cla4_4.b[1]
 b[14] => cla4:cla4_4.b[2]
 b[15] => cla4:cla4_4.b[3]
 cin => cla4:cla4_1.cin
-cin => vuaparalela16bits:v1.c0
+cin => vuaparalela16bits:vua_16.cin
+p <> vuaparalela16bits:vua_16.pg
+g <> vuaparalela16bits:vua_16.gg
 
 
 |cla16|cla4:cla4_1
-a[0] => fulladder:somador0.a
-a[1] => fulladder:somador1.a
-a[2] => fulladder:somador2.a
-a[3] => fulladder:somador3.a
-b[0] => fulladder:somador0.b
-b[1] => fulladder:somador1.b
-b[2] => fulladder:somador2.b
-b[3] => fulladder:somador3.b
+a[0] => fulladder_pg:somador0.a
+a[1] => fulladder_pg:somador1.a
+a[2] => fulladder_pg:somador2.a
+a[3] => fulladder_pg:somador3.a
+b[0] => fulladder_pg:somador0.b
+b[1] => fulladder_pg:somador1.b
+b[2] => fulladder_pg:somador2.b
+b[3] => fulladder_pg:somador3.b
+cin => fulladder_pg:somador0.cin
 cin => vuaparalela:carry.cin
+p <> vuaparalela:carry.pg
+g <> vuaparalela:carry.gg
+
+
+|cla16|cla4:cla4_1|fulladder_pg:somador0
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|cla16|cla4:cla4_1|fulladder_pg:somador1
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|cla16|cla4:cla4_1|fulladder_pg:somador2
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|cla16|cla4:cla4_1|fulladder_pg:somador3
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
 
 
 |cla16|cla4:cla4_1|vuaparalela:carry
@@ -63,70 +108,78 @@ p[2] => c.IN1
 p[3] => pg.IN1
 p[3] => gg.IN0
 p[3] => gg.IN0
-p[3] => cout.IN0
-p[3] => cout.IN1
-p[3] => cout.IN1
-p[3] => cout.IN1
+p[3] => gg.IN0
 g[0] => gg.IN1
 g[0] => c.IN1
 g[0] => c.IN1
 g[1] => gg.IN1
 g[1] => c.IN1
 g[1] => c.IN1
+g[2] => gg.IN1
 g[2] => c.IN1
-g[2] => cout.IN1
-g[3] => cout.IN1
+g[3] => gg.IN1
 cin => c.IN1
 cin => c.IN1
-cin => c[1].DATAIN
-
-
-|cla16|cla4:cla4_1|fulladder:somador0
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
-
-
-|cla16|cla4:cla4_1|fulladder:somador1
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
-
-
-|cla16|cla4:cla4_1|fulladder:somador2
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
-
-
-|cla16|cla4:cla4_1|fulladder:somador3
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
+c[1] <> c[1]
+c[2] <> c[2]
+c[3] <> c[3]
+pg <> pg
+gg <> gg
 
 
 |cla16|cla4:cla4_2
-a[0] => fulladder:somador0.a
-a[1] => fulladder:somador1.a
-a[2] => fulladder:somador2.a
-a[3] => fulladder:somador3.a
-b[0] => fulladder:somador0.b
-b[1] => fulladder:somador1.b
-b[2] => fulladder:somador2.b
-b[3] => fulladder:somador3.b
+a[0] => fulladder_pg:somador0.a
+a[1] => fulladder_pg:somador1.a
+a[2] => fulladder_pg:somador2.a
+a[3] => fulladder_pg:somador3.a
+b[0] => fulladder_pg:somador0.b
+b[1] => fulladder_pg:somador1.b
+b[2] => fulladder_pg:somador2.b
+b[3] => fulladder_pg:somador3.b
+cin => fulladder_pg:somador0.cin
 cin => vuaparalela:carry.cin
+p <> vuaparalela:carry.pg
+g <> vuaparalela:carry.gg
+
+
+|cla16|cla4:cla4_2|fulladder_pg:somador0
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|cla16|cla4:cla4_2|fulladder_pg:somador1
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|cla16|cla4:cla4_2|fulladder_pg:somador2
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|cla16|cla4:cla4_2|fulladder_pg:somador3
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
 
 
 |cla16|cla4:cla4_2|vuaparalela:carry
@@ -145,70 +198,78 @@ p[2] => c.IN1
 p[3] => pg.IN1
 p[3] => gg.IN0
 p[3] => gg.IN0
-p[3] => cout.IN0
-p[3] => cout.IN1
-p[3] => cout.IN1
-p[3] => cout.IN1
+p[3] => gg.IN0
 g[0] => gg.IN1
 g[0] => c.IN1
 g[0] => c.IN1
 g[1] => gg.IN1
 g[1] => c.IN1
 g[1] => c.IN1
+g[2] => gg.IN1
 g[2] => c.IN1
-g[2] => cout.IN1
-g[3] => cout.IN1
+g[3] => gg.IN1
 cin => c.IN1
 cin => c.IN1
-cin => c[1].DATAIN
-
-
-|cla16|cla4:cla4_2|fulladder:somador0
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
-
-
-|cla16|cla4:cla4_2|fulladder:somador1
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
-
-
-|cla16|cla4:cla4_2|fulladder:somador2
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
-
-
-|cla16|cla4:cla4_2|fulladder:somador3
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
+c[1] <> c[1]
+c[2] <> c[2]
+c[3] <> c[3]
+pg <> pg
+gg <> gg
 
 
 |cla16|cla4:cla4_3
-a[0] => fulladder:somador0.a
-a[1] => fulladder:somador1.a
-a[2] => fulladder:somador2.a
-a[3] => fulladder:somador3.a
-b[0] => fulladder:somador0.b
-b[1] => fulladder:somador1.b
-b[2] => fulladder:somador2.b
-b[3] => fulladder:somador3.b
+a[0] => fulladder_pg:somador0.a
+a[1] => fulladder_pg:somador1.a
+a[2] => fulladder_pg:somador2.a
+a[3] => fulladder_pg:somador3.a
+b[0] => fulladder_pg:somador0.b
+b[1] => fulladder_pg:somador1.b
+b[2] => fulladder_pg:somador2.b
+b[3] => fulladder_pg:somador3.b
+cin => fulladder_pg:somador0.cin
 cin => vuaparalela:carry.cin
+p <> vuaparalela:carry.pg
+g <> vuaparalela:carry.gg
+
+
+|cla16|cla4:cla4_3|fulladder_pg:somador0
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|cla16|cla4:cla4_3|fulladder_pg:somador1
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|cla16|cla4:cla4_3|fulladder_pg:somador2
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|cla16|cla4:cla4_3|fulladder_pg:somador3
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
 
 
 |cla16|cla4:cla4_3|vuaparalela:carry
@@ -227,70 +288,78 @@ p[2] => c.IN1
 p[3] => pg.IN1
 p[3] => gg.IN0
 p[3] => gg.IN0
-p[3] => cout.IN0
-p[3] => cout.IN1
-p[3] => cout.IN1
-p[3] => cout.IN1
+p[3] => gg.IN0
 g[0] => gg.IN1
 g[0] => c.IN1
 g[0] => c.IN1
 g[1] => gg.IN1
 g[1] => c.IN1
 g[1] => c.IN1
+g[2] => gg.IN1
 g[2] => c.IN1
-g[2] => cout.IN1
-g[3] => cout.IN1
+g[3] => gg.IN1
 cin => c.IN1
 cin => c.IN1
-cin => c[1].DATAIN
-
-
-|cla16|cla4:cla4_3|fulladder:somador0
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
-
-
-|cla16|cla4:cla4_3|fulladder:somador1
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
-
-
-|cla16|cla4:cla4_3|fulladder:somador2
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
-
-
-|cla16|cla4:cla4_3|fulladder:somador3
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
+c[1] <> c[1]
+c[2] <> c[2]
+c[3] <> c[3]
+pg <> pg
+gg <> gg
 
 
 |cla16|cla4:cla4_4
-a[0] => fulladder:somador0.a
-a[1] => fulladder:somador1.a
-a[2] => fulladder:somador2.a
-a[3] => fulladder:somador3.a
-b[0] => fulladder:somador0.b
-b[1] => fulladder:somador1.b
-b[2] => fulladder:somador2.b
-b[3] => fulladder:somador3.b
+a[0] => fulladder_pg:somador0.a
+a[1] => fulladder_pg:somador1.a
+a[2] => fulladder_pg:somador2.a
+a[3] => fulladder_pg:somador3.a
+b[0] => fulladder_pg:somador0.b
+b[1] => fulladder_pg:somador1.b
+b[2] => fulladder_pg:somador2.b
+b[3] => fulladder_pg:somador3.b
+cin => fulladder_pg:somador0.cin
 cin => vuaparalela:carry.cin
+p <> vuaparalela:carry.pg
+g <> vuaparalela:carry.gg
+
+
+|cla16|cla4:cla4_4|fulladder_pg:somador0
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|cla16|cla4:cla4_4|fulladder_pg:somador1
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|cla16|cla4:cla4_4|fulladder_pg:somador2
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
+
+
+|cla16|cla4:cla4_4|fulladder_pg:somador3
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <> p
+g <> g
 
 
 |cla16|cla4:cla4_4|vuaparalela:carry
@@ -309,81 +378,57 @@ p[2] => c.IN1
 p[3] => pg.IN1
 p[3] => gg.IN0
 p[3] => gg.IN0
-p[3] => cout.IN0
-p[3] => cout.IN1
-p[3] => cout.IN1
-p[3] => cout.IN1
+p[3] => gg.IN0
 g[0] => gg.IN1
 g[0] => c.IN1
 g[0] => c.IN1
 g[1] => gg.IN1
 g[1] => c.IN1
 g[1] => c.IN1
+g[2] => gg.IN1
 g[2] => c.IN1
-g[2] => cout.IN1
-g[3] => cout.IN1
+g[3] => gg.IN1
 cin => c.IN1
 cin => c.IN1
-cin => c[1].DATAIN
+c[1] <> c[1]
+c[2] <> c[2]
+c[3] <> c[3]
+pg <> pg
+gg <> gg
 
 
-|cla16|cla4:cla4_4|fulladder:somador0
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
-
-
-|cla16|cla4:cla4_4|fulladder:somador1
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
-
-
-|cla16|cla4:cla4_4|fulladder:somador2
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
-
-
-|cla16|cla4:cla4_4|fulladder:somador3
-a => p.IN0
-a => g.IN0
-b => p.IN1
-b => g.IN1
-cin => s.IN1
-cin => cout.IN1
-
-
-|cla16|vuaparalela16bits:v1
-c0 => c.IN1
-c0 => cout.IN0
+|cla16|vuaparalela16bits:vua_16
+cin => c.IN1
+cin => c.IN0
 p[0] => c.IN0
-p[0] => cout.IN1
+p[0] => c.IN1
+p[1] => gg.IN1
 p[1] => c.IN1
-p[1] => cout.IN0
-p[1] => cout.IN1
-p[2] => cout.IN0
-p[2] => cout.IN1
-p[2] => cout.IN1
-p[3] => cout.IN0
-p[3] => cout.IN1
-p[3] => cout.IN1
-p[3] => cout.IN1
+p[1] => c.IN0
+p[1] => c.IN1
+p[2] => pg.IN1
+p[2] => gg.IN1
+p[2] => gg.IN1
+p[2] => c.IN0
+p[2] => c.IN1
+p[2] => c.IN1
+p[3] => pg.IN1
+p[3] => gg.IN0
+p[3] => gg.IN0
+p[3] => gg.IN0
+g[0] => gg.IN1
 g[0] => c.IN1
-g[0] => cout.IN1
+g[0] => c.IN1
+g[1] => gg.IN1
 g[1] => c.IN1
-g[1] => cout.IN1
+g[1] => c.IN1
+g[2] => gg.IN1
 g[2] => c.IN1
-g[2] => cout.IN1
-g[3] => cout.IN1
+g[3] => gg.IN1
+c[1] <> c[1]
+c[2] <> c[2]
+c[3] <> c[3]
+pg <> pg
+gg <> gg
 
 

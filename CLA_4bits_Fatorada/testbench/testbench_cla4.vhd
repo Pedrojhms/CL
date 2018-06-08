@@ -33,7 +33,7 @@ begin
 dut: cla4 port map (a, b, cin, s, p, g);
 -- generate clock
 process begin
-	clk <= '1'; wait for 15 ns;  
+	clk <= '1'; wait for 11 ns;  
 	clk <= '0'; wait for 5 ns;
 end process;
 -- at start of test, load vectors
